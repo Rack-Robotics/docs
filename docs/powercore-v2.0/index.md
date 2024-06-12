@@ -20,7 +20,7 @@ Ensure that proper measures are taken against EMI. Routing of EDM power through 
 
 ### Help
 
-If you find that there's something unclear in this documentation, please [submit a ticket on Github](URL for repo). 
+If you find that there's something unclear in this documentation, please [submit a ticket on Github](https://github.com/Rack-Robotics/docs.git). 
 
 If you have questions, please join our [discord](https://discord.gg/z4XNk7Hkgw). 
 
@@ -42,3 +42,5 @@ If you have questions, please join our [discord](https://discord.gg/z4XNk7Hkgw).
 - Avoid short circuits. A short circuit occurs when the POWER port outputs short together. This may happen if wiring is incorrect, or the cutting electrode collides with the work. A prolonged short circuit can damage the Powercore.
 
 - When integrating the Powercore V2.0 into a wire EDM build, ensure that the EN port fails to an off default state during machine shutoff.
+
+- Avoid disconnecting main power from the Powercore V2.0 while the device is enabled. 
