@@ -1,6 +1,6 @@
 # Rack Robotics Documentation 
 
-This repository is the source for Rack Robotics documentation site at [text here](URL HERE)
+This repository is the source for Rack Robotics documentation.
 
 ## Local Development 
 
@@ -13,26 +13,7 @@ This repository is the source for Rack Robotics documentation site at [text here
 4. Clone this repository:
 
    ```bash
-   git clone https://github.com/opulo-inc/docs.git
+   git clone https://github.com/Rack-Robotics/docs.git
    ```
 
-5. Install Mkdocs and our plugins
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-6. Open the code in your favorite code editor. We like [Visual Studio Code](https://code.visualstudio.com/).
-
-### Development server
-
-In the project directory, you can run:
-
-```bash
-mkdocs serve
-```
-
-This runs the site in the development mode.
-Open [http://localhost:8000](http://localhost:8000) to view it in your browser.
-
-The page will reload when you make changes.
+5. Open the code in your favorite code editor. We like [Visual Studio Code](https://code.visualstudio.com/).
