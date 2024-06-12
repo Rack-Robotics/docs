@@ -4,7 +4,7 @@
 
 The Wire Tool V1.0 is an open-source wire EDM (electrical discharge machining) wire EDM toolhead developed by Rack Robotics. It aims to provide a cost-effective and easily hackable solution for wire EDM enthusiasts and professionals. The Wire Tool V1.0 is designed to be mounted to a CNC motion system of the user's choice.
 
-[Drawing of Wire Tool dimensions here]
+<img src="images/palce_holder.png">
 
 ### Safety
 
