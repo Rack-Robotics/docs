@@ -177,7 +177,7 @@ body {
         margin-top:
     }
     .container {
-        height: calc(100vh - 8rem); /* Adjust height to fit the viewport, minus the header and mobile address bar*/
+        height: calc(100vh - 12rem); /* Adjust height to fit the viewport, minus the header and mobile address bar*/
     }
 
     .sidebar {
