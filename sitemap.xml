@@ -2,18 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.org/</loc>
+    <loc>https://rack-robotics.github.io/docs/</loc>
   </url><url>
-    <loc>https://example.org/powercore-v2.0/</loc>
+    <loc>https://rack-robotics.github.io/docs/powercore-v2.0/</loc>
   </url><url>
-    <loc>https://example.org/powercore-v2.0/user-manual/</loc>
+    <loc>https://rack-robotics.github.io/docs/powercore-v2.0/user-manual/</loc>
   </url><url>
-    <loc>https://example.org/wire-tool-v1.0/user-manual/</loc>
+    <loc>https://rack-robotics.github.io/docs/wire-tool-v1.0/user-manual/</loc>
   </url><url>
-    <loc>https://example.org/categories/</loc>
+    <loc>https://rack-robotics.github.io/docs/categories/</loc>
   </url><url>
-    <loc>https://example.org/tags/</loc>
+    <loc>https://rack-robotics.github.io/docs/tags/</loc>
   </url><url>
-    <loc>https://example.org/wire-tool-v1.0/</loc>
+    <loc>https://rack-robotics.github.io/docs/wire-tool-v1.0/</loc>
   </url>
 </urlset>

@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Rack Robotics Docs</title>
-    <link>https://example.org/powercore-v2.0/</link>
+    <link>https://rack-robotics.github.io/docs/powercore-v2.0/</link>
     <description>Recent content on Rack Robotics Docs</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/powercore-v2.0/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://rack-robotics.github.io/docs/powercore-v2.0/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>https://example.org/powercore-v2.0/user-manual/</link>
+      <link>https://rack-robotics.github.io/docs/powercore-v2.0/user-manual/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/powercore-v2.0/user-manual/</guid>
+      <guid>https://rack-robotics.github.io/docs/powercore-v2.0/user-manual/</guid>
       <description>Powercore V2.0 User Manual What is the Powercore V2.0? The Powercore V2.0 is an open-source wire EDM (electrical discharge machining) power supply developed by Rack Robotics. It aims to provide a cost-effective and easily replicable solution for wire EDM enthusiasts and professionals.&#xA;What is wire EDM? Wire Electrical Discharge Machining (Wire EDM) is a manufacturing process used to cut intricate shapes and contours in electrically conductive materials, such as metals. It operates by generating a series of rapid electrical discharges between a thin, electrically charged wire (usually made of brass) and the workpiece, which is submerged in a dielectric fluid (usually water).</description>
     </item>
   </channel>
