@@ -6,6 +6,10 @@ on:
     branches:
       - main
 
+# This permission is required to push changes to the deploy branch
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
