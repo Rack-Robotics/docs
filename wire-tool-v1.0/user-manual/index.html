@@ -56,9 +56,8 @@
 <p>The Wire Tool V1.0 is an open-source wire EDM (electrical discharge machining) wire EDM toolhead developed by Rack Robotics. It aims to provide a cost-effective and easily hackable solution for wire EDM enthusiasts and professionals. The Wire Tool V1.0 is designed to be mounted to a CNC motion system of the user&rsquo;s choice.</p>
 <p><img src="images/place_holder.png" alt="Wire Tool V1.0"></p>
 <h3 id="safety">Safety</h3>
-<p>The Wire Tool V2.0 is intended to be used in combination with the Powercore V2.0 EDM power supply. The Powercore V2.0 operates at a potentially hazardous voltage of 65 - 72 VDC, and supplies high-power waveforms. Improper use of the Powercore can increase radiated emission levels. These intrinsic properties of EDM necessitate operator care and supervision.</p>
-<p>Touching the workpiece or electrode(s) during EDM operation exposes the may expose the user to 65 - 72 VDC high-voltage. Individuals with pacemakers or similar medical devices should not operate the Powercore, as the high-voltage environment could interfere with their functionality.</p>
-<p>Ensure that proper measures are taken against EMI. Routing of EDM power through unshielded/twisted cables not recommended. Unshielded/twisted cables function as antennas, which will radiate emissions into the nearby environment.</p>
+<p>!!! danger The Powercore operates at a potentially hazardous voltage of 65 - 72 VDC, and supplies high-power waveforms</p>
+<p>The Wire Tool V2.0 is intended to be used in combination with the Powercore V2.0 EDM power supply. Improper use of the Powercore can increase radiated emission levels. These intrinsic properties of EDM necessitate operator care and supervision. Touching the workpiece or electrode(s) during EDM operation exposes the may expose the user to 65 - 72 VDC high-voltage. Individuals with pacemakers or similar medical devices should not operate the Powercore, as the high-voltage environment could interfere with their functionality. Ensure that proper measures are taken against EMI. Routing of EDM power through unshielded/twisted cables not recommended. Unshielded/twisted cables function as antennas, which will radiate emissions into the nearby environment.</p>
 <h3 id="help">Help</h3>
 <p>If you find that there&rsquo;s something unclear in this documentation, please <a href="https://github.com/Rack-Robotics/docs.git">submit a ticket on Github</a>.</p>
 <p>If you have questions, please join our <a href="https://discord.gg/z4XNk7Hkgw">discord</a>.</p>
@@ -70,7 +69,12 @@
 <h2 id="assembly">Assembly</h2>
 <h2 id="mounting">Mounting</h2>
 <h2 id="threading-of-wire">Threading of Wire</h2>
+<p>Threading is the act of guiding the brass EDM wire through the wire EDM tool. Here are a few tip for threading the wire tool:</p>
+<ul>
+<li>Use a lighter to cut the brass EDM wire, not a clipper or knife. Clipping or cutting the wire with a tool leaves a bur on the wire, which prevents it from entering the ceramic wire guide. Burs can be avoided by placing the EDM wire into the flame of a lighter, and applying tension by hand. The heat melts the wire, and allows it to be drawn into a sharp point. This sharp point permits the brass EDM wire to enter the precision wire guide.</li>
+</ul>
 <h2 id="integrating-flushing">Integrating Flushing</h2>
+<p>The wire tool supports dielectric flushing. Flushing dramatically improves cutting reliability and cutting speed. Dielectric (water) remove EDM chips from the cut, and cools the wire. Most problems in wire EDM are solved by adding more dielectric flushing. it is recommended to use a 100 PSI water pump with the Wire Tool.</p>
 <h2 id="trouble-shooting">Trouble Shooting</h2>
 <h2 id="contributing-to-the-wire-tool">Contributing to the Wire Tool</h2>
 
