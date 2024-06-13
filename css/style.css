@@ -180,8 +180,9 @@ body {
     .sidebar {
         transform: translateX(-100%);
         position: fixed;
-        top: 500px;
+        top: 0;
         left: 0;
+        padding-top: 4rem;
         width: 100%;
         height: 100%;
     }
@@ -216,7 +217,6 @@ body {
 .content::-webkit-scrollbar {
     width: 12px;
 }
-
 .content::-webkit-scrollbar-track {
     border-radius: 10px;
 }
