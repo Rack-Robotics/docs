@@ -18,7 +18,7 @@ If you find that there's something unclear in this documentation, please [submit
 
 If you have questions, please join our [discord](https://discord.gg/z4XNk7Hkgw). 
 
-## Best_Practices
+## Best Practices
 
 - Consult the best practices section of the Powercore V2.0 documentation. 
 - Avoid collision of the wire with the work. A collision may result in wire breakage, and cut failure. Ensure that the wire tool is rigidly mounted on it's motion platform. Unwanted vibration or movement of the wire tool during operation may result in cut failure or wire breakage.
