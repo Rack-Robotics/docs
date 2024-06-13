@@ -42,3 +42,7 @@ If you have questions, please join our [discord](https://discord.gg/z4XNk7Hkgw).
 - When integrating the Powercore V2.0 into a wire EDM build, ensure that the EN port fails to an off default state during machine shutoff.
 
 - Avoid disconnecting main power from the Powercore V2.0 while the device is enabled. 
+
+## Contributing 
+
+Want to chat? Please join our [discord](https://discord.gg/z4XNk7Hkgw). 
