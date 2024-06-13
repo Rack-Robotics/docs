@@ -1,0 +1,40 @@
+name: Build & Publish
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout main repo
+      uses: actions/checkout@v4
+
+    - name: Install dependencies
+      run: ./install-hugo.sh
+
+    - name: Build content
+      run: hugo
+
+    # Remove everything that isn't in the public folder
+    - name: Clean up
+      run: |
+        ls -A | grep -xv -e "public" -e ".git" | xargs rm -rf
+    
+    - name: Move public folder to root
+      run: |
+        mv public/* .
+        rm -rf public
+    
+    - name: Commit changes
+      run: |
+        git add .
+        git commit -m "Deploy"
+    
+    - name: Push changes
+      run: |
+        git push origin HEAD:deploy

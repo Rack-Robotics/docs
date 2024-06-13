@@ -1,4 +1,4 @@
-# Powercore V2.0 User Manual 
+# Powercore V2.0 User Manual
 
 ## What is the Powercore V2.0? 
 
@@ -34,10 +34,10 @@ If you have questions, please join our [discord](https://discord.gg/z4XNk7Hkgw).
 |**EN**| The Powercore V2.0 features an "enable port" that ensures safety by requiring activation before the device outputs EDM waveforms. When the Powercore is plugged in, it remains inactive until the enable port receives a DC voltage between **5V and 36V**. This port draws minimal current. The enable port can be connected to GPIO, motor, heater, or LED ports on a 3D printer or CNC control board, or controlled manually with a switch. *To prevent damage*, avoid disconnecting the main AC power while the enable port is active.|
 |**USB**| A type-C USB port provides communication with the on-board RP2040 micronctroller and flash memory. Pressing the reset button (the pin-hole located between the ‘AMP’ and ‘EN’ ports) during power-up initiates the USB bootloader mode, allowing access to the flash memory. When the reset button is held down while powering up, the RP2040 enters a special state where it presents itself as a mass storage device to a connected computer. This enables users to drag and drop firmware files directly into the flash memory, facilitating easy updates and modifications without needing additional programming tools or interfaces.|
 
-<img src="images/powercore_v2.0_front_ports_with_polarity_indicators.png">
+![Powercore V2.0 Front Ports with Polarity Indicators](images/powercore_v2.0_front_ports_with_polarity_indicators.png)
 
 
-## Best_Practices
+## Best Practices
 
 - Avoid short circuits. A short circuit occurs when the POWER port outputs short together. This may happen if wiring is incorrect, or the cutting electrode collides with the work. A prolonged short circuit can damage the Powercore.
 

@@ -1,0 +1,17 @@
+<aside class="sidebar">
+    <div class="sidebar-header">
+        <input type="text" placeholder="Search..." class="sidebar-search">
+    </div>
+    <nav class="sidebar-nav">
+        <ul>
+            {{ range $section, $taxonomy := .Site.Sections }}
+                <h4 class="brand-color">{{ $taxonomy.Section | humanize }}</h4>
+                <ul>
+                    {{ range $taxonomy.Pages }}
+                        <li><a href="{{ .Permalink }}">{{ path.Base (path.Dir .File.Path) | humanize }}</a></li>
+                    {{ end }}
+                </ul>
+            {{ end }}
+        </ul>
+    </nav>
+</aside>
