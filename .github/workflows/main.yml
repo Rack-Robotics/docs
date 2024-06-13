@@ -20,19 +20,31 @@ jobs:
 
     - name: Install dependencies
       run: ./install-hugo.sh
+    
+    - name: Setup Pages
+      id: pages
+      uses: actions/configure-pages@v5
 
     - name: Build content
-      run: hugo
-
-    # Remove everything that isn't in the public folder
-    - name: Clean up
-      run: |
-        ls -A | grep -xv -e "public" -e ".git" | xargs rm -rf
+      run: hugo --baseURL "${{ steps.pages.outputs.base_url }}/"
     
-    - name: Move public folder to root
+    - name: Move public to tmp
       run: |
-        mv public/* .
-        rm -rf public
+        mv public /tmp/public
+
+    - name: Checkout deploy branch
+      uses: actions/checkout@v4
+      with:
+        ref: deploy
+
+    - name: Remove old files
+      run: |
+        ls -A | grep -xv -e ".git" | xargs rm -rf
+
+    - name: Move public folder to repo root
+      run: |
+        mv /tmp/public/* .
+        rm -rf /tmp/public
 
     - name: Configure git
       run: |
