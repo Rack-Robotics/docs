@@ -174,12 +174,13 @@ body {
 
     .site-header .burger-menu {
         display: block;
+        margin-top:
     }
 
     .sidebar {
         transform: translateX(-100%);
         position: fixed;
-        top: 0;
+        top: 500px;
         left: 0;
         width: 100%;
         height: 100%;
