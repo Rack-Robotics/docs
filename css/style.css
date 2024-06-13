@@ -176,6 +176,9 @@ body {
         display: block;
         margin-top:
     }
+    .container {
+        height: calc(100vh - 8rem); /* Adjust height to fit the viewport, minus the header and mobile address bar*/
+    }
 
     .sidebar {
         transform: translateX(-100%);
