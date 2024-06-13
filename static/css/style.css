@@ -176,9 +176,6 @@ body {
         display: block;
         margin-top:
     }
-    .container {
-        padding-bottom: 8rem;
-    }
 
     .sidebar {
         transform: translateX(-100%);
@@ -209,6 +206,7 @@ body {
 
     .content {
         padding: 1rem;
+        padding-bottom: 8rem;
     }
 
     .content img {
