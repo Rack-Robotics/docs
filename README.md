@@ -17,3 +17,13 @@ This repository is the source for Rack Robotics documentation.
    ```
 
 5. Open the code in your favorite code editor. We like [Visual Studio Code](https://code.visualstudio.com/).
+
+6. Install Hugo if necessary: [gohugo.io](https://gohugo.io/getting-started/installing/).
+
+7. Run the Hugo server:
+
+   ```bash
+   hugo server
+   ```
+
+8. Open your browser and navigate to `http://localhost:1313`.

@@ -1,0 +1,12 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ .Site.Title }}</title>
+<meta content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Section }} - {{ .Site.Title }}{{ end }}" property="og:title">
+<meta name="theme-color" content="#FF4F00">
+<link rel="icon" type="image/svg+xml" href={{ "logo.svg" | absURL }} />
+<!-- Website by Kiefer Skunkworks ~ https://jameskiefer.com -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href={{ "css/type.css" | absURL }}>
+<link rel="stylesheet" href={{ "css/style.css" | absURL }}>

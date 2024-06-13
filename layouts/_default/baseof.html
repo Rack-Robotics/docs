@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{ partial "head.html" . }}
+</head>
+<body>
+    {{ partial "header.html" . }}
+    <div class="container">
+        {{ partial "sidebar.html" . }}
+        <main class="content">
+            {{ .Content }}
+        </main>
+        <aside class="content-overview">
+            <h2>On This Page</h2>
+            <ul>
+                <li><a href="#">Section 1</a></li>
+                <li><a href="#">Section 2</a></li>
+                <li><a href="#">Section 3</a></li>
+                <!-- Add more sections as needed -->
+            </ul>
+        </aside>
+    </div>
+    <script>
+        function toggleMenu() {
+            document.querySelector('.sidebar').classList.toggle('open');
+        }
+    </script>
+</body>
+</html>

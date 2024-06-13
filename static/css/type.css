@@ -1,0 +1,126 @@
+/* Base Styles */
+body {
+    font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Condensed', 'Helvetica Neue', Arial, sans-serif;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+    line-height: 1.2;
+}
+
+h1 { 
+    font-size: 2.25em; 
+    font-weight: 700;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 0.3em;
+}
+h2 { 
+    font-size: 1.75em; 
+    font-weight: 600;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 0.2em;
+}
+h3 { 
+    font-size: 1.5em; 
+    font-weight: 500;
+}
+h4 { 
+    font-size: 1.25em; 
+    font-weight: 500;
+}
+h5 { 
+    font-size: 1em; 
+    font-weight: 500;
+}
+h6 { 
+    font-size: 0.875em; 
+    font-weight: 500;
+}
+
+/* Paragraphs */
+p {
+    margin: 0 0 1em 0;
+}
+
+/* Links */
+a {
+    color: #FF4F00;
+    text-decoration: none;
+}
+a:hover, a:focus {
+    text-decoration: underline;
+}
+
+/* Lists */
+ul, ol {
+    margin: 1em 0;
+    padding-left: 1.5em;
+}
+li {
+    margin: 0.5em 0;
+}
+
+/* Code */
+code, pre {
+    font-family: 'Fira Code', 'Consolas', 'Monaco', monospace;
+    background-color: #f4f4f4;
+    padding: 0.2em 0.4em;
+    border-radius: 3px;
+}
+pre {
+    padding: 1em;
+    overflow: auto;
+}
+
+/* Blockquotes */
+blockquote {
+    border-left: 4px solid #ddd;
+    margin: 1em 0;
+    padding: 0.5em 1em;
+    color: #555;
+    background-color: #f9f9f9;
+}
+
+/* Tables */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 1em 0;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 0.75em;
+    text-align: left;
+}
+th {
+    background-color: #333;
+    font-weight: bold;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    body {
+        font-size: 15px;
+    }
+    h1 { font-size: 2em; }
+    h2 { font-size: 1.5em; }
+    h3 { font-size: 1.25em; }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+    h1 { font-size: 1.75em; }
+    h2 { font-size: 1.25em; }
+    h3 { font-size: 1em; }
+}

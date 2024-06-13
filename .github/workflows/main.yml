@@ -1,0 +1,61 @@
+name: Build & Publish
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+# This permission is required to push changes to the deploy branch
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout main repo
+      uses: actions/checkout@v4
+
+    - name: Install dependencies
+      run: ./install-hugo.sh
+    
+    - name: Setup Pages
+      id: pages
+      uses: actions/configure-pages@v5
+
+    - name: Build content
+      run: hugo --baseURL "${{ steps.pages.outputs.base_url }}/"
+    
+    - name: Move public to tmp
+      run: |
+        mv public /tmp/public
+
+    - name: Checkout deploy branch
+      uses: actions/checkout@v4
+      with:
+        ref: deploy
+
+    - name: Remove old files
+      run: |
+        ls -A | grep -xv -e ".git" | xargs rm -rf
+
+    - name: Move public folder to repo root
+      run: |
+        mv /tmp/public/* .
+        rm -rf /tmp/public
+
+    - name: Configure git
+      run: |
+        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git config --global user.name "github-actions[bot]"
+    
+    - name: Commit changes
+      run: |
+        git add .
+        git commit -m "Deploy"
+    
+    - name: Push changes
+      run: |
+        git push origin HEAD:deploy
