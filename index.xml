@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rack Robotics Docs</title>
+    <link>https://example.org/</link>
+    <description>Recent content on Rack Robotics Docs</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://example.org/powercore-v2.0/user-manual/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/powercore-v2.0/user-manual/</guid>
+      <description>Powercore V2.0 User Manual What is the Powercore V2.0? The Powercore V2.0 is an open-source wire EDM (electrical discharge machining) power supply developed by Rack Robotics. It aims to provide a cost-effective and easily replicable solution for wire EDM enthusiasts and professionals.&#xA;What is wire EDM? Wire Electrical Discharge Machining (Wire EDM) is a manufacturing process used to cut intricate shapes and contours in electrically conductive materials, such as metals. It operates by generating a series of rapid electrical discharges between a thin, electrically charged wire (usually made of brass) and the workpiece, which is submerged in a dielectric fluid (usually water).</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://example.org/wire-tool-v1.0/user-manual/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/wire-tool-v1.0/user-manual/</guid>
+      <description>Wire Tool V1.0 User Manual What is the Wire Tool V1.0? The Wire Tool V1.0 is an open-source wire EDM (electrical discharge machining) wire EDM toolhead developed by Rack Robotics. It aims to provide a cost-effective and easily hackable solution for wire EDM enthusiasts and professionals. The Wire Tool V1.0 is designed to be mounted to a CNC motion system of the user&amp;rsquo;s choice.&#xA;Safety The Wire Tool V2.0 is intended to be used in combination with the Powercore V2.</description>
+    </item>
+  </channel>
+</rss>
