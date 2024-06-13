@@ -3,7 +3,7 @@
 <title>{{ .Site.Title }}</title>
 <meta content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Section }} - {{ .Site.Title }}{{ end }}" property="og:title">
 <meta name="theme-color" content="#FF4F00">
-<link rel="icon" type="image/svg+xml" href="/logo.svg" />
+<link rel="icon" type="image/svg+xml" href={{ "logo.svg" | absURL }} />
 <!-- Website by Kiefer Skunkworks ~ https://jameskiefer.com -->
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
