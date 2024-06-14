@@ -64,9 +64,9 @@ Threaded inserts are used in this tool. Please use caution when installing threa
 
 Install the threaded inserts in accordance with the following images:
 
-### Front Base Cover
+### Front Base
 
-![Front_Base_Cover](docs\wire-tool-v1.0\user-manual\images\MAIN_Lower Front Base 1.png)
+![Front_Base](docs\wire-tool-v1.0\user-manual\images\MAIN_Lower_Front_Base_1.png)
 
 ### Tension Arm
 
