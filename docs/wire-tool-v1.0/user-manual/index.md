@@ -66,6 +66,8 @@ Install the threaded inserts in accordance with the following images:
 
 ### Front Base Cover
 
+![Wire Tool V1.0](images/MAIN_Lower Front Base 1.png)
+
 ### Tension Arm
 
 ### Tensioner Body
