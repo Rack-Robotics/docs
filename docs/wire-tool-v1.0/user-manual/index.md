@@ -100,14 +100,13 @@ Install magnets in accordance with the following images:
 
 ### Back Lower Base
 
-![Back_Base_Magnet](images/MAIN_Lower_Back_Base_1.png)
-![Back_Base_Magnet](images/MAGNET_Lower_Back_Base_1.png)
-![Back_Base_Magnet](images/MAGNET_Lower_Back_Base_2.png)
+![Back_Base_Magnet](images/MAIN_Back_Lower_Base_1.png)
+![Back_Base_Magnet](images/MAGNET_Back_Lower_Base_1.png)
+![Back_Base_Magnet](images/MAGNET_Back_Lower_Base_2.png)
 
 ### Tool Mount
 
 ![Tool_Mount_Magnet](images/MAIN_Tool_Mount_1.png)
-![Tool_Mount_Magnet](images/MAIN_Tool_Mount_2.png)
 ![Tool_Mount_Magnet](images/MAGNET_Tool_Mount_1.png)
 ![Tool_Mount_Magnet](images/MAGNET_Tool_Mount_2.png)
 
@@ -147,6 +146,8 @@ Install magnets in accordance with the following images:
 
 ![Tensioner_Cover_Magnet](images/MAIN_Tensioner_Cover_1.png)
 ![Tensioner_Cover_Magnet](images/MAIN_Tensioner_Cover_2.png)
+![Tensioner_Cover_Magnet](images/MAGNET_Tensioner_Cover_1.png)
+![Tensioner_Cover_Magnet](images/MAGNET_Tensioner_Cover_2.png)
 
 ## Mechanical Assembly
 
