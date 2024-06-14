@@ -67,6 +67,10 @@ Install the threaded inserts in accordance with the following images:
 ### Front Base
 
 ![Front_Base](images/MAIN_Lower_Front_Base_1.png)
+![Front_Base](images/MAIN_Lower_Front_Base_2.png)
+![Front_Base](images/INSERT_Lower_Front_Base_1.png)
+![Front_Base](images/INSERT_Lower_Front_Base_2.png)
+
 
 ### Tension Arm
 
