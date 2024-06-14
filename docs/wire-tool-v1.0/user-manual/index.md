@@ -32,40 +32,56 @@ This assembly requires hot glue, super glue, and heat set inserts. Each of these
 
 ## 3D Prints
 
-All 3D printable files can be found on the Rack [Robotics Printables page](https://www.printables.com/@RackRoboticsO_631255). Files included are 3MF, STL, STEP, and Fusion Archive. You may need to modify files for threaded insert results with your chosen filament.
+All 3D printable files can be found on the [Rack Robotics Printables page](https://www.printables.com/@RackRoboticsO_631255). Files included are 3MF, STL, STEP, and Fusion Archive. You may need to modify files for threaded insert results with your chosen filament.
 
 For Bambulab users, a ready to print project file has been provided.
 
 ### Required Files
 
-|File Name            |Number Required    |Dual Color (Y/N)|
-|---------------------|-------------------|----------------|
-|Back Lower Base      |         1         |        N       |
-|Back Lower Cover     |         1         |        Y       |
-|Fastener Cap         |         1         |        N       |
-|Flushing Cap         |         1         |        N       |
-|Front Base Cover     |         1         |        Y       |
-|Idler                |         2         |        N       |
-|Insulating Boss      |         1         |        N       |
-|Motor Cover          |         1         |        N       |
-|Motor Mount          |         1         |        N       |
-|Pinch Roller Bushing |         1         |        N       |
-|Spool Puller         |         1         |        N       |
-|Tension Arm          |         1         |        N       |
-|Tensioner Body       |         1         |        N       |
-|Tensioner Cover      |         1         |        Y       |
-|Tool Mount Ender 3   |         1         |        N       |
-|Tool Mount Cover     |         1         |        Y       |
+|File Name            |Number Required    |Dual Color (Y/N)|Requires Threaded Inserts (Y/N)|
+|---------------------|-------------------|----------------|-------------------------------|
+|Back Lower Base      |         1         |        N       |N                              |
+|Back Lower Cover     |         1         |        Y       |N                              |
+|Fastener Cap         |         1         |        N       |N                              |
+|Flushing Cap         |         1         |        N       |N                              |
+|Front Base Cover     |         1         |        Y       |Y                              |
+|Idler                |         2         |        N       |N                              |
+|Insulating Boss      |         1         |        N       |N                              |
+|Motor Cover          |         1         |        N       |N                              |
+|Motor Mount          |         1         |        N       |N                              |
+|Pinch Roller Bushing |         1         |        N       |N                              |
+|Spool Puller         |         1         |        N       |N                              |
+|Tension Arm          |         1         |        N       |Y                              |
+|Tensioner Body       |         1         |        N       |Y                              |
+|Tensioner Cover      |         1         |        Y       |N                              |
+|Tool Mount Ender 3   |         1         |        N       |N                              |
+|Tool Mount Cover     |         1         |        Y       |N                              |
 
 
-### Threaded Insert Installation
+## Threaded Insert Installation
 
 Threaded inserts are used in this tool. Please use caution when installing threaded inserts.
 
+Install the threaded inserts in accordance with the following images:
 
-### Magnet Installation
+### Front Base Cover
 
-### Mechanical Assembly
+### Tension Arm
+
+### Tensioner Body
+
+## Magnet Installation
+
+Magnets are used to retain safety covers on the WT-01. All magnets provided are M6x2. While magnets should fit snugly into their recesses, a small drop of super glue will prevent the magnets from working their way out after many cycles of installation and removal.
+
+Install magnets in accordance with the following images:
+
+## Mechanical Assembly
+
+When assembling the WT-01, care must be taken not to cross thread fasteners into the aluminum endoskeleton. If fasteners are cross threaded, the type III anodizing may be damaged, exposing the bare aluminum to water. This will lead to corrosion and premature degradation of your WT-01.
+
+Complete the mechanical assembly of the WT-01 in accordance with the following images:
+
 
 ### Wiring
 
