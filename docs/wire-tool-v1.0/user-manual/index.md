@@ -26,6 +26,50 @@ If you have questions, please join our [discord](https://discord.gg/z4XNk7Hkgw).
 
 ## Assembly
 
+The following assembly will cover the base configuration for the WT-01. This base configuration is designed to work with the Ender 3 V1 3D printer. You will need to modify the Tool Mount and Vat to fit your specific machine if you are not using an Ender 3 V1. 
+
+This assembly requires hot glue, super glue, and heat set inserts. Each of these pose their own hazards to health. Take proper safety precautions when assembling the WT-01.
+
+### 3D Prints
+
+All 3D printable files can be found on the Rack [Robotics Printables page](https://www.printables.com/@RackRoboticsO_631255). Files included are 3MF, STL, STEP, and Fusion Archive. You may need to modify files for threaded insert results with your chosen filament.
+
+For Bambulab users, a ready to print project file has been provided.
+
++++
+title = "Required Files"
++++
+
+# Required Files
+
+|File Name            |Number Required    |Dual Color (Y/N)|
+|---------------------|-------------------|----------------|
+|Back Lower Base      |         1         |        N       |
+|Back Lower Cover     |         1         |        Y       |
+|Fastener Cap         |         1         |        N       |
+|Flushing Cap         |         1         |        N       |
+|Front Base Cover     |         1         |        Y       |
+|Idler                |         2         |        N       |
+|Insulating Boss      |         1         |        N       |
+|Motor Cover          |         1         |        N       |
+|Motor Mount          |         1         |        N       |
+|Pinch Roller Bushing |         1         |        N       |
+|Spool Puller         |         1         |        N       |
+|Tension Arm          |         1         |        N       |
+|Tensioner Body       |         1         |        N       |
+|Tensioner Cover      |         1         |        Y       |
+|Tool Mount Ender 3   |         1         |        N       |
+|Tool Mount Cover     |         1         |        Y       |
+
+
+### Threaded Insert Installation
+
+### Magnet Installation
+
+### Mechanical Assembly
+
+### Wiring
+
 ## Mounting
 
 ## Threading of Wire
