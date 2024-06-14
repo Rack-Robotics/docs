@@ -9,7 +9,7 @@ The Wire Tool V1.0 is an open-source wire EDM (electrical discharge machining) w
 
 ### Safety
 
-!!! danger The Powercore operates at a potentially hazardous voltage of 65 - 72 VDC, and supplies high-power waveforms
+**DANGER.** The Powercore operates at a potentially hazardous voltage of 65 - 72 VDC, and supplies high-power waveforms
 
 The Wire Tool V2.0 is intended to be used in combination with the Powercore V2.0 EDM power supply. Improper use of the Powercore can increase radiated emission levels. These intrinsic properties of EDM necessitate operator care and supervision. Touching the workpiece or electrode(s) during EDM operation exposes the may expose the user to 65 - 72 VDC high-voltage. Individuals with pacemakers or similar medical devices should not operate the Powercore, as the high-voltage environment could interfere with their functionality. Ensure that proper measures are taken against EMI. Routing of EDM power through unshielded/twisted cables not recommended. Unshielded/twisted cables function as antennas, which will radiate emissions into the nearby environment.
 
@@ -30,7 +30,7 @@ The following assembly will cover the base configuration for the WT-01. This bas
 
 This assembly requires hot glue, super glue, and heat set inserts. Each of these pose their own hazards to health. Take proper safety precautions when assembling the WT-01.
 
-### 3D Prints
+## 3D Prints
 
 All 3D printable files can be found on the Rack [Robotics Printables page](https://www.printables.com/@RackRoboticsO_631255). Files included are 3MF, STL, STEP, and Fusion Archive. You may need to modify files for threaded insert results with your chosen filament.
 
@@ -60,6 +60,7 @@ For Bambulab users, a ready to print project file has been provided.
 
 ### Threaded Insert Installation
 
+Threaded inserts are used in this tool. Please use caution when installing threaded inserts.
 
 
 ### Magnet Installation
