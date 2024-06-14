@@ -74,6 +74,10 @@ Install the threaded inserts in accordance with the following images:
 
 ### Tension Arm
 
+![Tension_Arm](images/MAIN_Tension_Arm_1.png)
+![Tension_Arm](images/INSERT_Tension_Arm_1.png)
+![Tension_Arm](images/INSERT_Tension_Arm_2.png)
+
 ### Tensioner Body
 
 ## Magnet Installation
