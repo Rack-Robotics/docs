@@ -93,6 +93,61 @@ Magnets are used to retain safety covers on the WT-01. All magnets provided are 
 
 Install magnets in accordance with the following images:
 
+### Front Lower Base
+
+![Front_Base_Magnet](images/MAGNET_Lower_Front_Base_1.png)
+![Front_Base_Magnet](images/MAGNET_Lower_Front_Base_2.png)
+
+### Back Lower Base
+
+![Back_Base_Magnet](images/MAIN_Lower_Back_Base_1.png)
+![Back_Base_Magnet](images/MAGNET_Lower_Back_Base_1.png)
+![Back_Base_Magnet](images/MAGNET_Lower_Back_Base_2.png)
+
+### Tool Mount
+
+![Tool_Mount_Magnet](images/MAIN_Tool_Mount_1.png)
+![Tool_Mount_Magnet](images/MAIN_Tool_Mount_2.png)
+![Tool_Mount_Magnet](images/MAGNET_Tool_Mount_1.png)
+![Tool_Mount_Magnet](images/MAGNET_Tool_Mount_2.png)
+
+### Tensioner Body
+
+![Tensioner_Body_Magnet](images/MAGNET_Tensioner_Body_1.png)
+![Tensioner_Body_Magnet](images/MAGNET_Tensioner_Body_2.png)
+
+### Flushing Cap
+
+![Flushing_Cap_Magnet](images/MAIN_Flushing_Cap_1.png)
+![Flushing_Cap_Magnet](images/MAGNET_Flushing_Cap_1.png)
+![Flushing_Cap_Magnet](images/MAGNET_Flushing_Cap_2.png)
+
+### Front Lower Cover
+
+![Front_Lower_Cover_Magnet](images/MAIN_Front_Lower_Cover_1.png)
+![Front_Lower_Cover_Magnet](images/MAIN_Front_Lower_Cover_2.png)
+![Front_Lower_Cover_Magnet](images/MAGNET_Front_Lower_Cover_1.png)
+![Front_Lower_Cover_Magnet](images/MAGNET_Front_Lower_Cover_2.png)
+
+### Back Lower Cover
+
+![Back_Lower_Cover_Magnet](images/MAIN_Back_Lower_Cover_1.png)
+![Back_Lower_Cover_Magnet](images/MAIN_Back_Lower_Cover_2.png)
+![Back_Lower_Cover_Magnet](images/MAGNET_Back_Lower_Cover_1.png)
+![Back_Lower_Cover_Magnet](images/MAGNET_Back_Lower_Cover_2.png)
+
+### Tool Mount Cover
+
+![Tool_Mount_Cover_Magnet](images/MAIN_Tool_Mount_Cover_1.png)
+![Tool_Mount_Cover_Magnet](images/MAIN_Tool_Mount_Cover_2.png)
+![Tool_Mount_Cover_Magnet](images/MAGNET_Tool_Mount_Cover_1.png)
+![Tool_Mount_Cover_Magnet](images/MAGNET_Tool_Mount_Cover_2.png)
+
+### Tensioner Cover
+
+![Tensioner_Cover_Magnet](images/MAIN_Tensioner_Cover_1.png)
+![Tensioner_Cover_Magnet](images/MAIN_Tensioner_Cover_2.png)
+
 ## Mechanical Assembly
 
 When assembling the WT-01, care must be taken not to cross thread fasteners into the aluminum endoskeleton. If fasteners are cross threaded, the type III anodizing may be damaged, exposing the bare aluminum to water. This will lead to corrosion and premature degradation of your WT-01.
@@ -100,7 +155,7 @@ When assembling the WT-01, care must be taken not to cross thread fasteners into
 Complete the mechanical assembly of the WT-01 in accordance with the following images:
 
 
-### Wiring
+## Wiring
 
 ## Mounting
 
