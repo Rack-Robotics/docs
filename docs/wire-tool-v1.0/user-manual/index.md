@@ -36,11 +36,7 @@ All 3D printable files can be found on the Rack [Robotics Printables page](https
 
 For Bambulab users, a ready to print project file has been provided.
 
-+++
-title = "Required Files"
-+++
-
-# Required Files
+### Required Files
 
 |File Name            |Number Required    |Dual Color (Y/N)|
 |---------------------|-------------------|----------------|
@@ -63,6 +59,8 @@ title = "Required Files"
 
 
 ### Threaded Insert Installation
+
+
 
 ### Magnet Installation
 
