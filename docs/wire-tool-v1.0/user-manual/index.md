@@ -329,13 +329,39 @@ Requires:
 ![Waste_Spool_Assm](images/ASSM_Waste_Spool_4.png)
 
 ## Wiring
-While simple, proper wiring of the WT-01 is critical. Ensure all of the following electrical connections are well secured. When directed, hot glue is strongly encouraged to prevent oxidation of electrical connections.
+While simple, proper wiring of the WT-01 is critical. Ensure all of the following electrical connections are well secured. 
 
 ### WC Block and Cathode Wire
 
+The WC block is the component that connects the cutting wire to the circuit. Ensuring a solid and long term electrical connection is important for reliability and safety. After installation of WC block and cathode wire, potting of the connection with hot glue is strongly recommended. Potting will help to prevent oxidation of the connector, improving lifetime.
+
+After installation and potting, route the cathode wire through the integrated wire run in the lower back base 3D print to the Wago bank on the tool mount print. Fastener cap should be added to the M6 screw for added safety. This may be applied with waterproof adhesive of choice.
+
+Requires:
+- WC Block
+- Insulating Boss
+- M6x30 Button Head Cap Screw
+- M6 Nylock
+- Cathode Wire
+
+![WC_Block_Assm](images/ASSM_WC_Block_1.png)
+![WC_Block_Assm](images/ASSM_WC_Block_2.png)
+![WC_Block_Assm](images/ASSM_WC_Block_3.png)
+![WC_Block_Assm](images/ASSM_WC_Block_4.png)
+
 ### Ground Wire
 
+The grounding wire is secured with a self tapping screw. This screw cuts into the endoskeleton and grounds it. This is done for safety and EMI reduction.
+
+Requires:
+- Self Tapping Screw
+- Ground Wire
+
+
+
 ### Wago Connections
+
+Wires supplied in the WT-01 kit require stripping before insertion into Wago terminals. Wires have been provided in this fashion in order to prevent fraying and damage during shipping.
 
 ## Mounting
 
