@@ -91,6 +91,8 @@ Install the threaded inserts in accordance with the following images:
 
 Magnets are used to retain safety covers on the WT-01. All magnets provided are M6x2. While magnets should fit snugly into their recesses, a small drop of super glue will prevent the magnets from working their way out after many cycles of cover installation and removal.
 
+**IMPORTANT.** Ensure all magnets are installed in matching orientation into base parts and covers. This may be simply achieved by first installing the magnets into all covers and subsequently placing another magnet on each installed magnet. The secondary placed magnet may be carefully removed and installed in matching orientation in the base part.
+
 Install magnets in accordance with the following images:
 
 ### Front Lower Base
@@ -177,6 +179,7 @@ The following hardware is required for assembly of the WT-01:
 |M5x12 Buttonhead Cap Screw           |         1         |
 |M6x30 Buttonhead Cap Screw           |         1         |
 |M6 Nylock                            |         1         |
+
 
 ## Subcomponents
 
@@ -366,6 +369,10 @@ Requires:
 Wires supplied in the WT-01 kit require stripping before insertion into Wago terminals. Wires have been provided in this fashion in order to prevent fraying and damage during shipping.
 
 (Diagram showing which wires go into which Wago terminals)
+
+### Magnetic Covers
+
+Now that final assembly and wiring have been completed, magnetic covers may be installed.
 
 ## Mounting
 
