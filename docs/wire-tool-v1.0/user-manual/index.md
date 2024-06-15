@@ -241,14 +241,29 @@ Complete the mechanical assembly of the WT-01 in accordance with the following i
 
 ### Front Lower Base
 Requires:
+- Endoskeleton
 - Front Lower Base Print
 - Idler Assembly (2x)
 - M4x16 Countersunk Screw (2x)
+
+![Front_Lower_Base_Assm](images/ASSM_Front_Lower_Base_1.png)
+![Front_Lower_Base_Assm](images/ASSM_Front_Lower_Base_2.png)
+![Front_Lower_Base_Assm](images/ASSM_Front_Lower_Base_3.png)
+![Front_Lower_Base_Assm](images/ASSM_Front_Lower_Base_4.png)
+![Front_Lower_Base_Assm](images/ASSM_Front_Lower_Base_5.png)
+![Front_Lower_Base_Assm](images/ASSM_Front_Lower_Base_6.png)
+![Front_Lower_Base_Assm](images/ASSM_Front_Lower_Base_7.png)
 
 ### Back Lower Base
 Requires:
 - Back Lower Base Print
 - M4x16 Countersunk Screw (3x)
+
+![Back_Lower_Base_Assm](images/ASSM_Back_Lower_Base_1.png)
+![Back_Lower_Base_Assm](images/ASSM_Back_Lower_Base_2.png)
+![Back_Lower_Base_Assm](images/ASSM_Back_Lower_Base_3.png)
+![Back_Lower_Base_Assm](images/ASSM_Back_Lower_Base_4.png)
+![Back_Lower_Base_Assm](images/ASSM_Back_Lower_Base_5.png)
 
 ### Tensioner Body
 Requires:
@@ -283,7 +298,7 @@ Requires:
 ## Wiring
 While simple, proper wiring of the WT-01 is critical. Ensure all of the following electrical connections are well secured. When directed, hot glue is strongly encouraged to prevent oxidation of electrical connections.
 
-### Cathode Wire
+### WC Block and Cathode Wire
 
 ### Ground Wire
 
