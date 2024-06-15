@@ -153,8 +153,32 @@ Install magnets in accordance with the following images:
 
 When assembling the WT-01, care must be taken not to cross thread fasteners into the aluminum endoskeleton. If fasteners are cross threaded, the type III anodizing may be damaged, exposing the bare aluminum to water. This will lead to corrosion and premature degradation of your WT-01.
 
+The following hardware is required for assembly of the WT-01:
+
+|Part                                 |Number Required    |
+|-------------------------------------|-------------------|
+|Endoskeleton                         |         1         |
+|Ceramic Wire Guide                   |         1         |
+|WC Block                             |         1         |
+|625RS Bearing                        |         4         |
+|18RPM 24V DC Motro                   |         1         |
+|Bowden Coupler                       |         2         |
+|Tension Spring                       |         1         |
+|M3 Rivnut                            |         1         |
+|135mm PTFE Tube                      |         1         |
+|Wago 221-412                         |         3         |
+|Wago 221-413                         |         1         |
+|M3x8 Buttonhead Cap Screw            |         6         |
+|M3x16 Countersunk Screw              |         1         |
+|M4x16 Countersunk Screw              |         11        |
+|M4x25 Buttonhead Cap Screw           |         1         |
+|M5x12 Buttonhead Cap Screw           |         1         |
+|M6x30 Buttonhead Cap Screw           |         1         |
+|M6 Nylock                            |         1         |
+
 Complete the mechanical assembly of the WT-01 in accordance with the following images:
 
+###
 
 ## Wiring
 
