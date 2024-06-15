@@ -89,7 +89,7 @@ Install the threaded inserts in accordance with the following images:
 
 ## Magnet Installation
 
-Magnets are used to retain safety covers on the WT-01. All magnets provided are M6x2. While magnets should fit snugly into their recesses, a small drop of super glue will prevent the magnets from working their way out after many cycles of installation and removal.
+Magnets are used to retain safety covers on the WT-01. All magnets provided are M6x2. While magnets should fit snugly into their recesses, a small drop of super glue will prevent the magnets from working their way out after many cycles of cover installation and removal.
 
 Install magnets in accordance with the following images:
 
@@ -168,7 +168,7 @@ The following hardware is required for assembly of the WT-01:
 |Tension Spring                       |         1         |
 |M3 Rivnut                            |         1         |
 |135mm PTFE Tube                      |         1         |
-|Wago 221-412                         |         3         |
+|Wago 221-412                         |         4         |
 |Wago 221-413                         |         1         |
 |M3x8 Buttonhead Cap Screw            |         6         |
 |M3x16 Countersunk Screw              |         1         |
@@ -178,33 +178,82 @@ The following hardware is required for assembly of the WT-01:
 |M6x30 Buttonhead Cap Screw           |         1         |
 |M6 Nylock                            |         1         |
 
+## Subcomponents
+
 Mechanical assembly begins with the assembly of subcomponents.
 
 Complete mechanical assembly in accordance with the following images:
 
-### Idler
+### Idler (2x)
+Requires:
+- 625RS Bearing (2x)
+- Idler Print (2x)
+
+Complete following steps 2 times:
 
 ### Tension Arm
+Requires:
+- Tension Arm Print
+- 625RS Bearing
+- M5x12 Button Head Cap Screw
 
 ### Flushing Cap
+Requires:
+- Flushing Cap Print
+- Ceramic Wire Guide
 
 ### Tensioner Body
+Requires:
+- Tensioner Body Print
+- Flushing Cap Assembly
+- M3x8 Button Head Cap Screw (2x)
+- Bowden Coupler (2x)
+- PTFE Tube
+
+## Final Assembly
 
 Once subcomponents have been assembled, final assembly may begin.
 
 Complete the mechanical assembly of the WT-01 in accordance with the following images:
 
 ### Front Lower Base
+Requires:
+- Front Lower Base Print
+- Idler Assembly (2x)
+- M4x16 Countersunk Screw (2x)
 
 ### Back Lower Base
-
-### Spool Motor and Base
-
-### Waste Spool
+Requires:
+- Back Lower Base Print
+- M4x16 Countersunk Screw (3x)
 
 ### Tensioner Body
+Requires:
+- Tensioner Assembly
+- Tension Arm Assembly
+- 625RS Bearing
+- Pinch Bearing Boss
+- M4x16 Countersunk Screw (2)
 
 ### Tool Mount
+Requires:
+- Tool Mount Print
+- M4x16 Countersunk Screw (3x)
+- Wago 221-412 (4x)
+- Wago 221-413
+
+### Spool Motor and Base
+Requires:
+- Motor Base Print
+- Motor Cover Print
+- 18RPM DC Motor
+- M3x8 Buttonhead Cap Screw (4x)
+- M4x16 Countersunk Screw
+
+### Waste Spool
+Requires:
+- Waste Spool Print
+- M3x16 Countersunk Screw
 
 ## Wiring
 
