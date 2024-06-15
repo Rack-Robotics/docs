@@ -357,11 +357,15 @@ Requires:
 - Self Tapping Screw
 - Ground Wire
 
-
+![Ground_Screw_Assm](images/ASSM_Ground_Screw_1.png)
+![Ground_Screw_Assm](images/ASSM_Ground_Screw_2.png)
+![Ground_Screw_Assm](images/ASSM_Ground_Screw_3.png)
 
 ### Wago Connections
 
 Wires supplied in the WT-01 kit require stripping before insertion into Wago terminals. Wires have been provided in this fashion in order to prevent fraying and damage during shipping.
+
+(Diagram showing which wires go into which Wago terminals)
 
 ## Mounting
 
