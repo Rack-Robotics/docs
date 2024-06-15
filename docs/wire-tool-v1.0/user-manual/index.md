@@ -185,11 +185,15 @@ Mechanical assembly begins with the assembly of subcomponents.
 Complete mechanical assembly in accordance with the following images:
 
 ### Idler (2x)
+Complete this step 2 times.
 Requires:
 - 625RS Bearing (2x)
 - Idler Print (2x)
 
-Complete following steps 2 times:
+![Idler_Assm](images/ASSM_Idler_1.png)
+![Idler_Assm](images/ASSM_Idler_2.png)
+![Idler_Assm](images/ASSM_Idler_3.png)
+![Idler_Assm](images/ASSM_Idler_4.png)
 
 ### Tension Arm
 Requires:
@@ -197,10 +201,20 @@ Requires:
 - 625RS Bearing
 - M5x12 Button Head Cap Screw
 
+![Tension_Arm_Assm](images/ASSM_Tension_Arm_1.png)
+![Tension_Arm_Assm](images/ASSM_Tension_Arm_2.png)
+![Tension_Arm_Assm](images/ASSM_Tension_Arm_3.png)
+![Tension_Arm_Assm](images/ASSM_Tension_Arm_4.png)
+![Tension_Arm_Assm](images/ASSM_Tension_Arm_5.png)
+
 ### Flushing Cap
 Requires:
 - Flushing Cap Print
 - Ceramic Wire Guide
+
+![Flushing_Cap_Assm](images/ASSM_Flushing_Cap_1.png)
+![Flushing_Cap_Assm](images/ASSM_Flushing_Cap_2.png)
+![Flushing_Cap_Assm](images/ASSM_Flushing_Cap_3.png)
 
 ### Tensioner Body
 Requires:
@@ -209,6 +223,15 @@ Requires:
 - M3x8 Button Head Cap Screw (2x)
 - Bowden Coupler (2x)
 - PTFE Tube
+
+![Tensioner_Body_Assm](images/ASSM_Tensioner_Body_1.png)
+![Tensioner_Body_Assm](images/ASSM_Tensioner_Body_2.png)
+![Tensioner_Body_Assm](images/ASSM_Tensioner_Body_3.png)
+![Tensioner_Body_Assm](images/ASSM_Tensioner_Body_4.png)
+![Tensioner_Body_Assm](images/ASSM_Tensioner_Body_5.png)
+![Tensioner_Body_Assm](images/ASSM_Tensioner_Body_6.png)
+![Tensioner_Body_Assm](images/ASSM_Tensioner_Body_7.png)
+![Tensioner_Body_Assm](images/ASSM_Tensioner_Body_8.png)
 
 ## Final Assembly
 
@@ -234,6 +257,8 @@ Requires:
 - 625RS Bearing
 - Pinch Bearing Boss
 - M4x16 Countersunk Screw (2)
+- Tension Spring
+- M3 Rivnut
 
 ### Tool Mount
 Requires:
@@ -256,6 +281,13 @@ Requires:
 - M3x16 Countersunk Screw
 
 ## Wiring
+While simple, proper wiring of the WT-01 is critical. Ensure all of the following electrical connections are well secured. When directed, hot glue is strongly encouraged to prevent oxidation of electrical connections.
+
+### Cathode Wire
+
+### Ground Wire
+
+### Wago Connections
 
 ## Mounting
 
