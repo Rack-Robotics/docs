@@ -36,6 +36,8 @@ All 3D printable files can be found on the [Rack Robotics Printables page](https
 
 For Bambulab users, a ready to print project file has been provided.
 
+(ADD SLICER SETTINGS)
+
 ### Required Files
 
 |File Name            |Number Required    |Dual Color (Y/N)|Requires Threaded Inserts (Y/N)|
@@ -368,7 +370,7 @@ Requires:
 
 Wires supplied in the WT-01 kit require stripping before insertion into Wago terminals. Wires have been provided in this fashion in order to prevent fraying and damage during shipping.
 
-(Diagram showing which wires go into which Wago terminals)
+(WAGO TERMINAL CALLOUT)
 
 ### Magnetic Covers
 
