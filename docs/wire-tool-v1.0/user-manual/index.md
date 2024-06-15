@@ -153,6 +153,8 @@ Install magnets in accordance with the following images:
 
 When assembling the WT-01, care must be taken not to cross thread fasteners into the aluminum endoskeleton. If fasteners are cross threaded, the type III anodizing may be damaged, exposing the bare aluminum to water. This will lead to corrosion and premature degradation of your WT-01.
 
+All hardware required for assembly is included with the WT-01 kit from Rack Robotics. Additional 625RS bearings and WC blocks have been provided as these are wear components.
+
 The following hardware is required for assembly of the WT-01:
 
 |Part                                 |Number Required    |
@@ -176,9 +178,33 @@ The following hardware is required for assembly of the WT-01:
 |M6x30 Buttonhead Cap Screw           |         1         |
 |M6 Nylock                            |         1         |
 
+Mechanical assembly begins with the assembly of subcomponents.
+
+Complete mechanical assembly in accordance with the following images:
+
+### Idler
+
+### Tension Arm
+
+### Flushing Cap
+
+### Tensioner Body
+
+Once subcomponents have been assembled, final assembly may begin.
+
 Complete the mechanical assembly of the WT-01 in accordance with the following images:
 
-###
+### Front Lower Base
+
+### Back Lower Base
+
+### Spool Motor and Base
+
+### Waste Spool
+
+### Tensioner Body
+
+### Tool Mount
 
 ## Wiring
 
@@ -189,6 +215,13 @@ Complete the mechanical assembly of the WT-01 in accordance with the following i
 Threading is the act of guiding the brass EDM wire through the wire EDM tool. Here are a few tip for threading the wire tool: 
 
 - Use a lighter to cut the brass EDM wire, not a clipper or knife. Clipping or cutting the wire with a tool leaves a bur on the wire, which prevents it from entering the ceramic wire guide. Burs can be avoided by placing the EDM wire into the flame of a lighter, and applying tension by hand. The heat melts the wire, and allows it to be drawn into a sharp point. This sharp point permits the brass EDM wire to enter the precision wire guide. 
+- Release tension on the system by loosening tension spring completely. Depress tension arm and manually feed wire through PTFE tube and wire guide.
+- Guide wire around first and second idler taking care to ensure wire sits below WC block.
+- Thread wire through hole in waste spool. Pull tight and hold wire out to the side near the axis of rotation of the waste spool.
+- Re-apply tension by tightening the screw on the tension arm.
+- Turn on spool motor and allow at least 5 full turns before letting go of wire.
+- Excess wire used for threading may now be broken off of waste spool.
+- WT-01 is now threaded and ready to cut.
 
 ## Integrating Flushing
 
