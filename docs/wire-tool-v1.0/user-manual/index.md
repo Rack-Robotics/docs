@@ -275,12 +275,31 @@ Requires:
 - Tension Spring
 - M3 Rivnut
 
+![Tensioner_Body_Section](images/ASSM_Tensioner_Body_Sec_1.png)
+![Tensioner_Body_Section](images/ASSM_Tensioner_Body_Sec_2.png)
+![Tensioner_Body_Section](images/ASSM_Tensioner_Body_Sec_3.png)
+![Tensioner_Body_Section](images/ASSM_Tensioner_Body_Sec_4.png)
+![Tensioner_Body_Section](images/ASSM_Tensioner_Body_Sec_5.png)
+![Tensioner_Body_Section](images/ASSM_Tensioner_Body_Sec_6.png)
+![Tensioner_Body_Section](images/ASSM_Tensioner_Body_Sec_7.png)
+![Tensioner_Body_Section](images/ASSM_Tensioner_Body_Sec_8.png)
+![Tensioner_Body_Section](images/ASSM_Tensioner_Body_Sec_9.png)
+![Tensioner_Body_Section](images/ASSM_Tensioner_Body_Sec_10.png)
+![Tensioner_Body_Section](images/ASSM_Tensioner_Body_Sec_11.png)
+
 ### Tool Mount
 Requires:
 - Tool Mount Print
 - M4x16 Countersunk Screw (3x)
 - Wago 221-412 (4x)
 - Wago 221-413
+
+![Tool_Mount_Assm](images/ASSM_Tool_Mount_1.png)
+![Tool_Mount_Assm](images/ASSM_Tool_Mount_2.png)
+![Tool_Mount_Assm](images/ASSM_Tool_Mount_3.png)
+![Tool_Mount_Assm](images/ASSM_Tool_Mount_4.png)
+![Tool_Mount_Assm](images/ASSM_Tool_Mount_5.png)
+![Tool_Mount_Assm](images/ASSM_Tool_Mount_6.png)
 
 ### Spool Motor and Base
 Requires:
@@ -290,10 +309,24 @@ Requires:
 - M3x8 Buttonhead Cap Screw (4x)
 - M4x16 Countersunk Screw
 
+![Motor_Mount_Assm](images/ASSM_Motor_Mount_1.png)
+![Motor_Mount_Assm](images/ASSM_Motor_Mount_2.png)
+![Motor_Mount_Assm](images/ASSM_Motor_Mount_3.png)
+![Motor_Mount_Assm](images/ASSM_Motor_Mount_4.png)
+![Motor_Mount_Assm](images/ASSM_Motor_Mount_5.png)
+![Motor_Mount_Assm](images/ASSM_Motor_Mount_6.png)
+![Motor_Mount_Assm](images/ASSM_Motor_Mount_7.png)
+![Motor_Mount_Assm](images/ASSM_Motor_Mount_8.png)
+
 ### Waste Spool
 Requires:
 - Waste Spool Print
 - M3x16 Countersunk Screw
+
+![Waste_Spool_Assm](images/ASSM_Waste_Spool_1.png)
+![Waste_Spool_Assm](images/ASSM_Waste_Spool_2.png)
+![Waste_Spool_Assm](images/ASSM_Waste_Spool_3.png)
+![Waste_Spool_Assm](images/ASSM_Waste_Spool_4.png)
 
 ## Wiring
 While simple, proper wiring of the WT-01 is critical. Ensure all of the following electrical connections are well secured. When directed, hot glue is strongly encouraged to prevent oxidation of electrical connections.
@@ -305,6 +338,11 @@ While simple, proper wiring of the WT-01 is critical. Ensure all of the followin
 ### Wago Connections
 
 ## Mounting
+
+Mounting the WT-01 in its base configuration on the Ender 3 is a simple task. The steps for doing so are as follows:
+- Remove Ender 3 hotend, retaining mounting hardware
+- Place WT-01 on hotend mounting boss
+- Reinstall hotend mounting fasteners through holes in the WT-01 Tool Mount Plate
 
 ## Threading of Wire
 
