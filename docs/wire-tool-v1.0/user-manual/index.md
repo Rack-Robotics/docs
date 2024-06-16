@@ -384,6 +384,9 @@ Requires:
 
 ![Ground_Screw_Assm](images/ASSM_Ground_Screw_1.png)
 ![Ground_Screw_Assm](images/ASSM_Ground_Screw_2.png)
+
+**ALERT.** Users have reported that over torquing the self tapping fastener shears off fastener head. Apply gentle pressure *by hand* when installing this part.
+
 ![Ground_Screw_Assm](images/ASSM_Ground_Screw_3.png)
 
 ### Wago Connections
