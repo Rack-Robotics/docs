@@ -197,6 +197,9 @@ Requires:
 
 ![Idler_Assm](images/ASSM_Idler_1.png)
 ![Idler_Assm](images/ASSM_Idler_2.png)
+
+**ALERT.** While bearing fit may be slightly tight, it is advised to add a small amount of superglue here prior to installation. Apply light coating only on interior walls of Idler print. This will ensure retention through the life of the bearing. Bearings will corrode over time. Extras have been included.
+
 ![Idler_Assm](images/ASSM_Idler_3.png)
 ![Idler_Assm](images/ASSM_Idler_4.png)
 
@@ -321,7 +324,7 @@ Requires:
 ![Motor_Mount_Assm](images/ASSM_Motor_Mount_5.png)
 ![Motor_Mount_Assm](images/ASSM_Motor_Mount_6.png)
 
-**CAUTION.** There is little thread engagement on screws for the following step. This is due to variation in production thickness of endoskeleton. Ensure motor is pressed tight against the endoskeleton during this step. Apply only *light force* when fastening screws. Loctite may be desirable.
+**ALERT.** There is little thread engagement on screws for the following step. This is due to variation in production thickness of endoskeleton. Ensure motor is pressed tight against the endoskeleton during this step. Apply only *light force* when fastening screws. Loctite may be desirable.
 
 ![Motor_Mount_Assm](images/ASSM_Motor_Mount_7.png)
 ![Motor_Mount_Assm](images/ASSM_Motor_Mount_8.png)
@@ -355,6 +358,9 @@ Requires:
 ![WC_Block_Assm](images/ASSM_WC_Block_1.png)
 ![WC_Block_Assm](images/ASSM_WC_Block_2.png)
 ![WC_Block_Assm](images/ASSM_WC_Block_3.png)
+
+**ALERT.** Please pot the electrical connection at this point. Hot glue will provide some protection against water for this connection. 3D print is designed to act as a potting cup and may be filled completely with glue. Lower temperature plastics like PLA may be damaged by potting entire cavity at once. Several steps may be required, allowing time to cool between each. 
+
 ![WC_Block_Assm](images/ASSM_WC_Block_4.png)
 
 ### Ground Wire
