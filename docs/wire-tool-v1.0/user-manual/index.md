@@ -293,6 +293,9 @@ Requires:
 
 ![Tensioner_Body_Section](images/ASSM_Tensioner_Body_Sec_1.png)
 ![Tensioner_Body_Section](images/ASSM_Tensioner_Body_Sec_2.png)
+
+**NOTE.** Printed stationary pinch roller boss is designed to deform upon installation of M4x16 CS screw. This deformation will provide a more secure location for the pinch roller.
+
 ![Tensioner_Body_Section](images/ASSM_Tensioner_Body_Sec_3.png)
 ![Tensioner_Body_Section](images/ASSM_Tensioner_Body_Sec_4.png)
 ![Tensioner_Body_Section](images/ASSM_Tensioner_Body_Sec_5.png)
@@ -391,6 +394,8 @@ Complete wiring in accordance with the following image:
 
 ![Wago_Wiring_Diagram](images/WT-01_Wiring_Diagram.png)
 
+After completion of wiring, consolidation of wiring loom with zip ties is recommended. 
+
 ### Magnetic Covers
 
 Now that final assembly and wiring have been completed, magnetic covers may be installed.
@@ -420,6 +425,8 @@ Threading is the act of guiding the brass EDM wire through the wire EDM tool. He
 The wire tool supports dielectric flushing. Flushing dramatically improves cutting reliability and cutting speed. Dielectric (water) remove EDM chips from the cut, and cools the wire. Most problems in wire EDM are solved by adding more dielectric flushing. it is recommended to use a 100 PSI water pump with the Wire Tool.
 
 ## Trouble Shooting
+
+(TO BE ADDED)
 
 ## Drawings
 
