@@ -320,6 +320,9 @@ Requires:
 ![Motor_Mount_Assm](images/ASSM_Motor_Mount_4.png)
 ![Motor_Mount_Assm](images/ASSM_Motor_Mount_5.png)
 ![Motor_Mount_Assm](images/ASSM_Motor_Mount_6.png)
+
+**CAUTION.** There is little thread engagement on screws for the following step. This is due to variation in production thickness of endoskeleton. Ensure motor is pressed tight against the endoskeleton during this step. Apply only *light force* when fastening screws. Loctite may be desirable.
+
 ![Motor_Mount_Assm](images/ASSM_Motor_Mount_7.png)
 ![Motor_Mount_Assm](images/ASSM_Motor_Mount_8.png)
 
