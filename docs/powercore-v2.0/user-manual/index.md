@@ -8,8 +8,6 @@ The Powercore V2.0 is an open-source wire EDM (electrical discharge machining) p
 
 Wire Electrical Discharge Machining (Wire EDM) is a manufacturing process used to cut intricate shapes and contours in electrically conductive materials, such as metals. It operates by generating a series of rapid electrical discharges between a thin, electrically charged wire (usually made of brass) and the workpiece, which is submerged in a dielectric fluid (usually water). The electrical discharges create intense localized heat, which melts and vaporizes small portions of the material. This allows for the creation of complex geometries with high accuracy and fine surface finishes
 
-## Before you begin 
-
 ### Safety
 
 **DANGER** The Powercore V2.0 operates at a potentially hazardous voltage of 65 - 72 VDC, and supplies high-power waveforms
