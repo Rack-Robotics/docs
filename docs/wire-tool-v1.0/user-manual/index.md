@@ -261,6 +261,9 @@ Requires:
 - PTFE Tube
 
 ![Tensioner_Body_Assm](images/ASSM_Tensioner_Body_1.png)
+
+**NOTE.** Bowden couplers are supplied with gaskets installed. These gaskets are the black plastic and rubber portions. *Remove these prior to installation.* Install blue collar prior to installation.
+
 ![Tensioner_Body_Assm](images/ASSM_Tensioner_Body_2.png)
 ![Tensioner_Body_Assm](images/ASSM_Tensioner_Body_3.png)
 ![Tensioner_Body_Assm](images/ASSM_Tensioner_Body_4.png)
