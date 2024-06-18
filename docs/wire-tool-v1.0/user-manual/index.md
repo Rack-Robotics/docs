@@ -35,8 +35,33 @@ This assembly requires hot glue, super glue, and heat set inserts. Each of these
 All 3D printable files can be found on the [Rack Robotics Printables page](https://www.printables.com/@RackRoboticsO_631255). Files included are 3MF, STL, STEP, and Fusion Archive. You may need to modify files for threaded insert to work with your chosen filament.
 
 For Bambulab users, a ready to print project file has been provided.
+Save for the Tension Arm, all parts print with the same settings. *Files verified for printing in PLA.* Other materials may be tested in the future.
 
-(ADD SLICER SETTINGS)
+### Slicer Settings
+
+**NOTE.** Design of several parts requires *slicing with arachne enabled* in order to ensure proper wall thickness and rigidity. Use arachne slicing for all parts. Critical print settings are as follows:
+
+|Setting                   |Setting Value  |
+|--------------------------|---------------|
+|Layer Height              |    0.16mm     |
+|First Layer Height        |     0.2mm     |
+|Line Width (Default)      |    0.42mm     |
+|Line Width (First Layer)  |     0.5mm     |
+|Line Width (Outer Wall)   |    0.42mm     |
+|Line Width (Inner Wall)   |    0.45mm     |
+|Wall Generator            |   Arachne     |
+|Wall Loops                |         2     |
+|Top Shell Layers          |         4     |
+|Sparse Infill Density     |       15%     |
+|Sparse Infill Pattern     |     Cubic     |
+|Generate Supports         |        No     |
+
+The different slicer settings for the Tension Arm is as follows:
+
+|Setting                   |Setting Value  |
+|--------------------------|---------------|
+|Wall Loops                |         5     |
+|Generate Supports         |       Yes     |
 
 ### Required Files
 
