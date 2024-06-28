@@ -419,11 +419,16 @@ Requires:
 
 ### Power Connections (WARNING: INCORRECT. FIX IN PROGRESS. DO NOT USE CURRENT INSTRUCTIONS.)
 
-Wires supplied in the WT-01 kit require stripping before insertion into Wago terminals. Wires have been provided in this fashion in order to prevent fraying and damage during shipping. **Strip all conductors to 11mm length.**
+Wires supplied in the WT-01 kit require stripping before insertion into Wago terminals. Wires have been provided in this fashion in order to prevent fraying and damage during shipping. **Strip all wires to expose 11mm of conductor.**
 
-Complete wiring in accordance with the following image:
+First, complete wiring to the Vat. Complete wiring in accordance with the following images:
 
-**IMAGE REMOVED. FIX IN PROGRESS.**
+![Vat_Wago_Bank_Callout](POWER_WIRING_VAT_1.png)
+![Vat_Wago_Bank_Closeup](POWER_WIRING_VAT_2.png)
+
+After completion of wiring for the Vat, the tool must next be wired.
+
+![Tool_Wiring_Diagram](POWER_WIRING_TOOL.png)
 
 After completion of wiring, consolidation of wiring loom with zip ties is recommended. 
 
