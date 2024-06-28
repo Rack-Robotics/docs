@@ -417,13 +417,13 @@ Requires:
 
 ![Ground_Screw_Assm](images/ASSM_Ground_Screw_3.png)
 
-### Wago Connections
+### Wago Connections (WARNING: INCORRECT. FIX IN PROGRESS. DO NOT USE CURRENT INSTRUCTIONS.)
 
 Wires supplied in the WT-01 kit require stripping before insertion into Wago terminals. Wires have been provided in this fashion in order to prevent fraying and damage during shipping.
 
 Complete wiring in accordance with the following image:
 
-![Wago_Wiring_Diagram](images/WT-01_Wiring_Diagram.png)
+**IMAGE REMOVED. FIX IN PROGRESS.**
 
 After completion of wiring, consolidation of wiring loom with zip ties is recommended. 
 
