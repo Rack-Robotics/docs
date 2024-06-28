@@ -428,7 +428,7 @@ First, complete wiring to the Vat. Complete wiring in accordance with the follow
 
 After completion of wiring for the Vat, the tool must next be wired.
 
-![Tool_Wiring_Diagram](images/POWER_WIRING_TOOL.png)
+![Tool_Wiring_Diagram](images/POWER_WIRING_TOOL_1.png)
 
 After completion of wiring, consolidation of wiring loom with zip ties is recommended. 
 
