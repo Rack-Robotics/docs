@@ -223,7 +223,7 @@ Requires:
 ![Idler_Assm](images/ASSM_Idler_1.png)
 ![Idler_Assm](images/ASSM_Idler_2.png)
 
-**ALERT.** While bearing fit may be slightly tight, it is advised to add a small amount of superglue here prior to installation. Apply light coating only on interior walls of Idler print. This will ensure retention through the life of the bearing. Bearings will corrode over time. Extras have been included.
+**ALERT.** While bearing fit may be slightly tight, it is advised to add a small amount of superglue here prior to installation. Apply light coating only on interior walls of Idler print. This will ensure retention through the life of the bearing. Bearings will corrode over time. Extras have been included in the Wire Tool Kit.
 
 ![Idler_Assm](images/ASSM_Idler_3.png)
 ![Idler_Assm](images/ASSM_Idler_4.png)
