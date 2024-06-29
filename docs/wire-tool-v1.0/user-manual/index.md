@@ -32,7 +32,9 @@ This assembly requires hot glue, super glue, and heat set inserts. Each of these
 
 ## 3D Prints
 
-All 3D printable files can be found on the [Rack Robotics Printables page](https://www.printables.com/@RackRoboticsO_631255). Files included are 3MF, STL, STEP, and Fusion Archive. You may need to modify files for threaded insert to work with your chosen filament.
+All 3D printable files can be found on the [Rack Robotics Printables page](https://www.printables.com/@RackRoboticsO_631255). Files included are 3MF, STL, and STEP. You may need to modify files for threaded insert to work with your chosen filament.
+
+Files also available on the the [Rack Robotics Github](https://github.com/Rack-Robotics/docs/tree/main).
 
 For Bambulab users, a ready to print project file has been provided.
 Save for the Tension Arm, all parts print with the same settings. *Files verified for printing in PLA.* Other materials may be tested in the future.
