@@ -10,15 +10,7 @@
         <main class="content">
             {{ .Content }}
         </main>
-        <aside class="content-overview">
-            <h2>On This Page</h2>
-            <ul>
-                <li><a href="#">Section 1</a></li>
-                <li><a href="#">Section 2</a></li>
-                <li><a href="#">Section 3</a></li>
-                <!-- Add more sections as needed -->
-            </ul>
-        </aside>
+        {{ partial "overview.html" . }}
     </div>
     {{ partial "scripts.html" . }}
 </body>

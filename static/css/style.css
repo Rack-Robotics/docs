@@ -142,7 +142,7 @@ th {
     text-decoration: none;
 }
 
-.site-header .burger-menu {
+.mobile-menu {
     display: none;
     cursor: pointer;
     font-size: 1.5rem;
@@ -167,7 +167,7 @@ th {
     flex-direction: column;
     padding: 1rem;
     transition: transform 0.3s ease;
-    height: 100%;
+    height: calc(100vh - 6rem);
     z-index: 1;
     border-right: 2px solid var(--sidebar-border-color);
     position: relative;
@@ -180,12 +180,11 @@ th {
 
 .sidebar-header, .sidebar-footer {
     font-weight: bold;
-    margin-bottom: 1rem;
 }
 
 .sidebar-footer {
     position: absolute;
-    bottom: 1rem;
+    bottom: 0;
 }
 
 .sidebar-nav h4 {
@@ -221,6 +220,7 @@ th {
     flex-grow: 1;
     padding: 2rem;
     overflow-y: auto;
+    scroll-behavior: smooth;
     a {
         color: var(--brand-color);
     }
@@ -233,6 +233,7 @@ th {
     img {
         margin: 0 auto;
         display: block;
+        max-width: 100%;
     }
 }
 
@@ -241,12 +242,13 @@ th {
     background-color: var(--content-overview-background-color);
     padding: 1rem;
     transition: transform 0.3s ease;
-    height: 100%;
-    display: none;
+    max-height: calc(100vh - 6rem);
+    overflow-y: auto;
 }
 
 .content-overview h2 {
     margin-top: 0;
+    color: var(--brand-color);
 }
 
 .content-overview ul {
@@ -254,9 +256,14 @@ th {
     padding: 0;
 }
 
+.content-overview ul.nest {
+    padding-left: 1em;
+    margin-top: 0;
+}
+
 .content-overview ul li a {
     text-decoration: none;
-    padding: 0.5rem 0;
+    padding: 0 0.5rem;
     display: block;
     color: var(--content-overview-link-color);
 }
@@ -265,11 +272,22 @@ th {
     background-color: var(--content-overview-link-hover-color);
 }
 
+@media (max-width: 1400px) {
+    .content-overview {
+        transform: translateX(100%);
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 250px;
+        height: 100%;
+    }
+}
+
 @media (max-width: 768px) {
     .site-header .navbar {
         display: none;
     }
-    .site-header .burger-menu {
+    .mobile-menu {
         display: block;
     }
     .sidebar {
@@ -319,3 +337,17 @@ th {
     border-radius: 10px;
     background-color: var(--scrollbar-thumb-color);
 }
+
+.content-overview::-webkit-scrollbar {
+    width: 6px;
+}
+
+.content-overview::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+.content-overview::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: var(--scrollbar-thumb-color);
+}
+
