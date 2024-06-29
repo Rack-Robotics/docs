@@ -14,7 +14,13 @@ Wire Electrical Discharge Machining (Wire EDM) is a manufacturing process used t
 
 Improper use of the Powercore can increase radiated emission levels. These intrinsic properties of EDM necessitate operator care and supervision. Touching the workpiece or electrode(s) during EDM operation exposes the may expose the user to 65 - 72 VDC high-voltage. Individuals with pacemakers or similar medical devices should not operate the Powercore, as the high-voltage environment could interfere with their functionality. Ensure that proper measures are taken against EMI. Routing of EDM power through unshielded/twisted cables not recommended. Unshielded/twisted cables function as antennas, which will radiate emissions into the nearby environment.
 
+**POTENTIAL FOR DAMAGE**
 
+The Powercore V2 is optimized, both in firmware and on the motherboard, for wire EDM. While the Powercore V2 *is capable* of plunge EDM, this should not be attempted without integration of the closed loop feedback from the ALRT port or AMP port. 
+
+By attempting plunge EDM or similar EDM techniques that have a large surface area electrode or one of greater current carrying capacity than 0.3mm brass wire, significant risk is posed to the integrity of the motherboard. **Shorting an electrode with a large surface area or large current carrying capacity to the work can destroy the Powercore V2 in seconds.**
+
+If attempting large surface area cuts, only do so with copious flushing of the spark gap and closed loop gap control enabled.
 
 ### Help
 
