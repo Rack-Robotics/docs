@@ -52,12 +52,13 @@ p {
 }
 
 /* Links */
-a {
-    color: #FF4F00;
-    text-decoration: none;
-}
-a:hover, a:focus {
-    text-decoration: underline;
+.content {
+    a {
+        text-decoration: none;
+    }
+    a:hover, a:focus {
+        text-decoration: underline;
+    }
 }
 
 /* Lists */
@@ -102,7 +103,6 @@ th, td {
     text-align: left;
 }
 th {
-    background-color: #333;
     font-weight: bold;
 }
 

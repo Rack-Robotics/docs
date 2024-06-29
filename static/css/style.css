@@ -1,27 +1,122 @@
+:root {
+    --brand-color: #FF4F00;
+    --header-background-color: #2c2c2c;
+    --header-text-color: var(--brand-color);
+    --background-color: #202020;
+    --text-color: #fff;
+    --sidebar-background-color: #333;
+    --sidebar-border-color: #FF4F00;
+    --content-overview-background-color: #333;
+    --content-overview-link-color: #fff;
+    --content-overview-link-hover-color: #444;
+    --scrollbar-thumb-color: #FF4F00;
+    --form-input-background-color: #202020;
+}
+
+[data-theme="light"] {
+    --header-background-color: var(--brand-color);
+    --text-color: #000;
+    --background-color: #fff;
+    --sidebar-background-color: #f4f4f4;
+    --header-text-color: #fff;
+    --form-input-background-color: #ccc;
+    --content-overview-link-hover-color: #ccc;
+}
+
+/** Form Elements **/
+
+.slider {
+    background-color: var(--form-input-background-color);
+    bottom: 0;
+    cursor: pointer;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: .4s;
+}
+
+.slider:before {
+    background-color: #fff;
+    bottom: 4px;
+    content: "";
+    height: 26px;
+    left: 4px;
+    position: absolute;
+    transition: .4s;
+    width: 26px;
+}
+
+input:checked + .slider {
+    background-color: var(--brand-color);
+}
+
+input:checked + .slider:before {
+    transform: translateX(26px);
+}
+
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+/** Site Styles **/
+
 body {
     margin: 0;
-    background-color: #202020;
-    color: #ffffff;
+    background-color: var(--background-color);
+    color: var(--text-color);
     overflow: hidden;
 }
 
-.brand-color {
-    color: #FF4F00;
+th {
+    background-color: var(--sidebar-background-color);
 }
 
-.logo {
-    color: #FF4F00;
+.brand-color {
+    color: var(--brand-color);
+}
+
+.theme-switch-wrapper {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.theme-switch {
+    display: inline-block;
+    height: 34px;
+    position: relative;
+    width: 60px;
+}
+
+.theme-switch input {
+    display: none;
+}
+
+.moon-icon {
+    margin-top: 1em;
+    margin-left: 0.5em;
+    width: 2.2em;
 }
 
 .site-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #2c2c2c;
+    background-color: var(--header-background-color);
+    color: var(--header-text-color);
     padding: 1rem;
-    color: #ffffff;
-    z-index: 2; /* Ensure the header is always on top */
+    z-index: 2;
     position: relative;
+    line-height: 1;
+}
+
+.site-header a {
+    color: var(--header-text-color);
 }
 
 .site-header .logo {
@@ -44,7 +139,6 @@ body {
 }
 
 .site-header .nav-list li a {
-    color: #ffffff;
     text-decoration: none;
 }
 
@@ -52,42 +146,46 @@ body {
     display: none;
     cursor: pointer;
     font-size: 1.5rem;
-    color: #FF4F00;
+}
+
+.theme-toggle {
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: var(--brand-color);
 }
 
 .container {
     display: flex;
     flex-wrap: nowrap;
-    height: calc(100vh - 4rem); /* Adjust height to fit the viewport, minus the header */
+    height: calc(100vh - 4rem);
 }
 
 .sidebar {
     min-width: 250px;
-    background-color: #333333;
+    background-color: var(--sidebar-background-color);
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     padding: 1rem;
     transition: transform 0.3s ease;
     height: 100%;
     z-index: 1;
-    border-right: 2px solid #FF4F00;
+    border-right: 2px solid var(--sidebar-border-color);
+    position: relative;
 }
 
 .sidebar-header {
     text-align: center;
-    display: none; /* Hide the sidebar header */
+    display: none;
 }
 
-.sidebar-header,
-.sidebar-footer {
+.sidebar-header, .sidebar-footer {
     font-weight: bold;
     margin-bottom: 1rem;
-
 }
 
-.sidebar-nav {
-    flex: 1;
+.sidebar-footer {
+    position: absolute;
+    bottom: 1rem;
 }
 
 .sidebar-nav h4 {
@@ -108,7 +206,7 @@ body {
 }
 
 .sidebar-nav ul li a {
-    color: #ffffff;
+    color: var(--text-color);
     text-decoration: none;
     padding: 0.5rem 0;
     padding-left: 1rem;
@@ -116,35 +214,35 @@ body {
 }
 
 .sidebar-nav ul li a:hover {
-    background-color: #444444;
+    background-color: var(--content-overview-link-hover-color);
 }
 
 .content {
     flex-grow: 1;
     padding: 2rem;
     overflow-y: auto;
-}
-
-.content h1,h2,h3,h4,h5,h6 {
-    color: #FF4F00;
-}
-
-.content h1:first-of-type {
-    margin-top: 0;
-}
-
-.content img {
-    margin: 0 auto;
-    display: block;
+    a {
+        color: var(--brand-color);
+    }
+    h1, h2, h3, h4, h5, h6 {
+        color: var(--brand-color);
+    }
+    h1:first-of-type {
+        margin-top: 0;
+    }
+    img {
+        margin: 0 auto;
+        display: block;
+    }
 }
 
 .content-overview {
     min-width: 250px;
-    background-color: #333333;
+    background-color: var(--content-overview-background-color);
     padding: 1rem;
     transition: transform 0.3s ease;
     height: 100%;
-    display: none;;
+    display: none;
 }
 
 .content-overview h2 {
@@ -157,26 +255,23 @@ body {
 }
 
 .content-overview ul li a {
-    color: #ffffff;
     text-decoration: none;
     padding: 0.5rem 0;
     display: block;
+    color: var(--content-overview-link-color);
 }
 
 .content-overview ul li a:hover {
-    background-color: #444444;
+    background-color: var(--content-overview-link-hover-color);
 }
 
 @media (max-width: 768px) {
     .site-header .navbar {
         display: none;
     }
-
     .site-header .burger-menu {
         display: block;
-        margin-top:
     }
-
     .sidebar {
         transform: translateX(-100%);
         position: fixed;
@@ -186,11 +281,12 @@ body {
         width: 100%;
         height: 100%;
     }
-
+    .sidebar-footer {
+        bottom: 4rem;
+    }
     .sidebar.open {
         transform: translateX(0);
     }
-
     .content-overview {
         transform: translateX(100%);
         position: fixed;
@@ -199,30 +295,27 @@ body {
         width: 100%;
         height: 100%;
     }
-
     .content-overview.open {
         transform: translateX(0);
     }
-
     .content {
         padding: 1rem;
         padding-bottom: 8rem;
     }
-
     .content img {
         width: 100%;
     }
 }
 
-
 .content::-webkit-scrollbar {
     width: 12px;
 }
+
 .content::-webkit-scrollbar-track {
     border-radius: 10px;
 }
 
 .content::-webkit-scrollbar-thumb {
     border-radius: 10px;
-    background-color:#FF4F00;
+    background-color: var(--scrollbar-thumb-color);
 }

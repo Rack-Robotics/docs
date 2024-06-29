@@ -1,0 +1,16 @@
+<script>
+    function toggleMenu() {
+        document.querySelector('.sidebar').classList.toggle('open');
+    }
+
+    const themeMode = document.querySelector('#theme-mode');
+    const currentTheme = localStorage.getItem('theme') || 'dark';
+    document.documentElement.setAttribute('data-theme', currentTheme);
+    themeMode.checked = currentTheme === 'dark';
+    function toggleTheme() {
+        themeMode.checked = !themeMode.checked;
+        var theme = themeMode.checked ? 'dark' : 'light';
+        document.documentElement.setAttribute('data-theme', theme);
+        localStorage.setItem('theme', theme);
+    }
+</script>
