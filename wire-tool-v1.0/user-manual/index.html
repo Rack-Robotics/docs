@@ -23,7 +23,7 @@
             <li><a href="https://rackrobo.io/about">About</a></li>
         </ul>
     </nav>
-    <div class="burger-menu" onclick="toggleMenu()">&#9776;</div>
+    <div class="mobile-menu" onclick="toggleMenu()">&#9776;</div>
 </header>
 
     <div class="container">
@@ -643,14 +643,9 @@ Requires:</p>
 
         </main>
         <aside class="content-overview">
-            <h2>On This Page</h2>
-            <ul>
-                <li><a href="#">Section 1</a></li>
-                <li><a href="#">Section 2</a></li>
-                <li><a href="#">Section 3</a></li>
-                
-            </ul>
-        </aside>
+    <h2>On This Page</h2>
+    <ul></ul>
+</aside>
     </div>
     <script>
     function toggleMenu() {
@@ -666,6 +661,69 @@ Requires:</p>
         var theme = themeMode.checked ? 'dark' : 'light';
         document.documentElement.setAttribute('data-theme', theme);
         localStorage.setItem('theme', theme);
+    }
+
+    
+    const headerSelector = ['h1', 'h2', 'h3', 'h4', 'h5', 'h6'].map((tag) => '.content ' + tag).join(', ');
+    const headers = document.querySelectorAll(headerSelector);
+    const headerTree = { parent: null, children: [], level: 0 };
+    let currentLevel = null;
+    let currentLevelRef = headerTree;
+    headers.forEach((header) => {
+        const level = parseInt(header.tagName[1]);
+        const node = { text: header.textContent, el: header, children: [], level };
+        if (currentLevel == null) {
+            node.parent = headerTree;
+            headerTree.children.push(node);
+            currentLevel = level;
+        } else if (level == currentLevel) {
+            node.parent = currentLevelRef;
+            currentLevelRef.children.push(node);
+        } else if (level > currentLevel) {
+            currentLevelRef = currentLevelRef.children[currentLevelRef.children.length - 1];
+            node.parent = currentLevelRef;
+            currentLevelRef.children.push(node);
+            currentLevel = level;
+        } else if (level < currentLevel) {
+            while (currentLevelRef.level != level) {
+                currentLevelRef = currentLevelRef.parent;
+            }
+            currentLevelRef = currentLevelRef.parent;
+            node.parent = currentLevelRef;
+            currentLevelRef.children.push(node);
+            currentLevel = level;
+        }
+    });
+    
+    
+    const contentOverview = document.querySelector('.content-overview ul');
+    function createContentOverview(node, parent) {
+        const li = document.createElement('li');
+        const a = document.createElement('a');
+        a.href = '#' + node.el.id;
+        a.textContent = node.text;
+        a.onclick = () => {
+            node.el.scrollIntoView({ behavior: 'smooth' });
+        };
+        li.appendChild(a);
+        if (node.children.length > 0) {
+            const ul = document.createElement('ul');
+            ul.classList.add('nest');
+            node.children.forEach((child) => {
+                createContentOverview(child, ul);
+            });
+            li.appendChild(ul);
+        }
+        parent.appendChild(li);
+    }
+    
+    headerTree.children.forEach((child) => {
+        createContentOverview(child, contentOverview);
+    });
+    
+    
+    if (headers.length <= 1) {
+        document.querySelector('.content-overview').style.display = 'none';
     }
 </script>
 </body>
