@@ -20,6 +20,7 @@
     <nav class="navbar">
         <ul class="nav-list">
             <li><a href="https://rackrobo.io/">Store</a></li>
+            <li><a href="https://rackrobo.io/about">About</a></li>
         </ul>
     </nav>
     <div class="burger-menu" onclick="toggleMenu()">&#9776;</div>
@@ -49,6 +50,17 @@
             
         </ul>
     </nav>
+    <div class="sidebar-footer">
+        <div class="theme-switch-wrapper" onclick="toggleTheme()">
+            <label class="theme-switch" for="theme-mode">
+                <input type="checkbox" id="theme-mode" />
+                <div class="slider round"></div>
+            </label>
+            <div class="moon-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 40"><path fill="currentColor" d="M27.492 18.66a10.736 10.736 0 0 1-2.187.22 11.012 11.012 0 0 1-11-11 10.674 10.674 0 0 1 .557-3.439 1 1 0 0 0-1.143-1.3 13 13 0 1 0 14.927 16.81 1 1 0 0 0-1.154-1.291Z"/></svg>
+            </div>
+        </div> 
+    </div>
 </aside>
         <main class="content">
             <h1 id="wire-tool-v10-user-manual-under-construction">Wire Tool V1.0 User Manual (UNDER CONSTRUCTION)</h1>
@@ -640,9 +652,20 @@ Requires:</p>
         </aside>
     </div>
     <script>
-        function toggleMenu() {
-            document.querySelector('.sidebar').classList.toggle('open');
-        }
-    </script>
+    function toggleMenu() {
+        document.querySelector('.sidebar').classList.toggle('open');
+    }
+
+    const themeMode = document.querySelector('#theme-mode');
+    const currentTheme = localStorage.getItem('theme') || 'dark';
+    document.documentElement.setAttribute('data-theme', currentTheme);
+    themeMode.checked = currentTheme === 'dark';
+    function toggleTheme() {
+        themeMode.checked = !themeMode.checked;
+        var theme = themeMode.checked ? 'dark' : 'light';
+        document.documentElement.setAttribute('data-theme', theme);
+        localStorage.setItem('theme', theme);
+    }
+</script>
 </body>
 </html>
