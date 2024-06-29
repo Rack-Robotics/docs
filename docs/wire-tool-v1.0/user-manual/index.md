@@ -417,7 +417,7 @@ Requires:
 
 ![Ground_Screw_Assm](images/ASSM_Ground_Screw_3.png)
 
-### Power Connections (WARNING: INCORRECT. FIX IN PROGRESS. DO NOT USE CURRENT INSTRUCTIONS. NEW 3D MODELS IN PROGRESS.)
+### Power Connections (WARNING: CURRENT RELEASED MODELS DO NOT MATCH. NEW 3D MODELS IN PROGRESS.)
 
 Wires supplied in the WT-01 kit require stripping before insertion into Wago terminals. Wires have been provided in this fashion in order to prevent fraying and damage during shipping. **Strip all wires to expose 11mm of conductor.**
 
