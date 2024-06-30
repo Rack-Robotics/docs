@@ -7,7 +7,6 @@
     --sidebar-background-color: #333;
     --sidebar-border-color: #FF4F00;
     --content-overview-background-color: #333;
-    --content-overview-link-color: #fff;
     --content-overview-link-hover-color: #444;
     --scrollbar-thumb-color: #FF4F00;
     --form-input-background-color: #202020;
@@ -21,6 +20,7 @@
     --header-text-color: #fff;
     --form-input-background-color: #ccc;
     --content-overview-link-hover-color: #ccc;
+    --content-overview-background-color: #f4f4f4;
 }
 
 /** Form Elements **/
@@ -265,7 +265,7 @@ th {
     text-decoration: none;
     padding: 0 0.5rem;
     display: block;
-    color: var(--content-overview-link-color);
+    color: var(--text-color);
 }
 
 .content-overview ul li a:hover {
