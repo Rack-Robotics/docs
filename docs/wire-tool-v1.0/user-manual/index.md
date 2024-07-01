@@ -419,13 +419,14 @@ Requires:
 
 ![Ground_Screw_Assm](images/ASSM_Ground_Screw_3.png)
 
-### Power Connections (SAFETY FIX INCOMING. DO NOT USE)
+### Power Connections
 
 Wires supplied in the WT-01 kit require stripping before insertion into Wago terminals. Wires have been provided in this fashion in order to prevent fraying and damage during shipping. **Strip all wires to expose 11mm of conductor.**
 
 First, complete wiring to the Vat. Complete wiring in accordance with the following images:
 
-(IMAGES REMOVED DUE TO REQUIRED SAFETY FIX)
+![Vat_Wago_Bank_Callout](images/POWER_WIRING_VAT_1.png)
+![Vat_Wago_Bank_Closeup](images/POWER_WIRING_VAT_2.png)
 
 After completion of wiring for the Vat, the tool must next be wired.
 
