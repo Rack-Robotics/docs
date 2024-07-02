@@ -408,6 +408,8 @@ Requires:
 
 The grounding wire is secured with a self tapping screw. This screw cuts into the endoskeleton and grounds it. This is done for safety and EMI reduction.
 
+**ALERT.** Users have reported shearing of the screw head during installation. It is highly recommended to thread this hole manually with an 8-32 tap prior to installation. If unable to tap this hole, it is recommended to use a fastener with a clearly visible cutting tip with recess for chips. Rack Robotics is working on a fix.
+
 Requires:
 - Self Tapping Screw
 - Ground Wire
