@@ -200,7 +200,6 @@ The following hardware is required for assembly of the WT-01:
 |M3 Rivnut                            |         1         |
 |135mm PTFE Tube                      |         1         |
 |Wago 221-412                         |         4         |
-|Wago 221-413                         |         1         |
 |M3x8 Buttonhead Cap Screw            |         6         |
 |M3x16 Countersunk Screw              |         1         |
 |M4x16 Countersunk Screw              |         11        |
