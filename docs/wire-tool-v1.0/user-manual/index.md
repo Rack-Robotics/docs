@@ -318,6 +318,7 @@ Requires:
 - 625RS Bearing
 - Pinch Bearing Boss
 - M4x16 Countersunk Screw (2)
+- M4x25 Buttonhead Cap Screw
 - Tension Spring
 - M3 Rivnut
 
