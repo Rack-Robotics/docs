@@ -342,7 +342,6 @@ Requires:
 - Tool Mount Print
 - M4x16 Countersunk Screw (3x)
 - Wago 221-412 (4x)
-- Wago 221-413
 
 ![Tool_Mount_Assm](images/ASSM_Tool_Mount_1.png)
 ![Tool_Mount_Assm](images/ASSM_Tool_Mount_2.png)
