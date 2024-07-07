@@ -454,7 +454,7 @@ Mounting the WT-01 in its base configuration on the Ender 3 is a simple task. Th
 
 Threading is the act of guiding the brass EDM wire through the wire EDM tool. Here are a few tips for threading the wire tool: 
 
-- Use a lighter to part the brass EDM wire, DO NOT cut it with a clipper or knife. Clipping or cutting of the wire leaves a bur on the wire, which prevents it from entering the ceramic wire guide. Burrs can be avoided by placing the EDM wire into the flame of a lighter, and applying tension by hand. The heat melts the wire, and allows it to be drawn into a sharp point. This sharp point permits the brass EDM wire to enter the precision wire guide. 
+- Use a lighter to part the brass EDM wire, DO NOT cut it with a clipper or knife. Clipping or cutting of the wire leaves a burr on the wire, which prevents it from entering the ceramic wire guide. Burrs can be avoided by placing the EDM wire into the flame of a lighter, and applying tension by hand. The heat melts the wire, and allows it to be drawn into a sharp point. This sharp point permits the brass EDM wire to enter the precision wire guide. 
 - Release tension on the system by loosening tension spring completely; then depress the tension arm and manually feed the wire through the PTFE tube and wire guide.
 - Guide wire around the first and second idler, taking care to ensure that the wire sits below the WC block.
 - Thread the wire through the hole in the waste spool. Pull tight and hold the wire out to the side near the the waste spool's axis of rotation.
