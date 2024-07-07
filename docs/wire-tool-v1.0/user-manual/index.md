@@ -194,7 +194,7 @@ The following hardware is required for assembly of the WT-01:
 |Ceramic Wire Guide                   |         1         |
 |WC Block                             |         1         |
 |625RS Bearing                        |         4         |
-|18RPM 24V DC Motro                   |         1         |
+|18RPM 24V DC Motor                   |         1         |
 |Bowden Coupler                       |         2         |
 |Tension Spring                       |         1         |
 |M3 Rivnut                            |         1         |
