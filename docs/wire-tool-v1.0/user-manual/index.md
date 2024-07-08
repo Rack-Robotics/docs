@@ -200,7 +200,6 @@ The following hardware is required for assembly of the WT-01:
 |M3 Rivnut                            |         1         |
 |135mm PTFE Tube                      |         1         |
 |Wago 221-412                         |         4         |
-|Wago 221-413                         |         1         |
 |M3x8 Buttonhead Cap Screw            |         6         |
 |M3x16 Countersunk Screw              |         1         |
 |M4x16 Countersunk Screw              |         11        |
@@ -318,6 +317,7 @@ Requires:
 - 625RS Bearing
 - Pinch Bearing Boss
 - M4x16 Countersunk Screw (2)
+- M4x25 Buttonhead Cap Screw
 - Tension Spring
 - M3 Rivnut
 
@@ -341,7 +341,6 @@ Requires:
 - Tool Mount Print
 - M4x16 Countersunk Screw (3x)
 - Wago 221-412 (4x)
-- Wago 221-413
 
 ![Tool_Mount_Assm](images/ASSM_Tool_Mount_1.png)
 ![Tool_Mount_Assm](images/ASSM_Tool_Mount_2.png)
