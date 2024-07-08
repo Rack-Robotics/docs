@@ -11,7 +11,7 @@ The Wire Tool V1.0 is an open-source wire EDM (electrical discharge machining) w
 
 **DANGER.** The Powercore operates at a potentially hazardous voltage of 65 - 72 VDC, and supplies high-power waveforms.
 
-The Wire Tool V2.0 is intended to be used in combination with the Powercore V2.0 EDM power supply. Improper use of the Powercore can increase radiated emission levels. These intrinsic properties of EDM necessitate operator care and supervision. Touching the workpiece or electrode(s) during EDM operation exposes the may expose the user to 65 - 72 VDC high-voltage. Individuals with pacemakers or similar medical devices should not operate the Powercore, as the high-voltage environment could interfere with their functionality. Ensure that proper measures are taken against EMI. Routing of EDM power through unshielded/twisted cables not recommended. Unshielded/twisted cables function as antennas, which will radiate emissions into the nearby environment.
+The Wire Tool V2.0 is intended to be used in combination with the Powercore V2.0 EDM power supply. Improper use of the Powercore can increase radiated emission levels. The intrinsic properties of EDM necessitate operator care and supervision. Touching the workpiece or electrode(s) during EDM operation may expose the user to 65 - 72 VDC high-voltage pulses. Individuals with pacemakers or similar medical devices should not operate the Powercore, as the high-voltage environment could interfere with their functionality. Ensure that proper measures are taken against EMI. Routing of EDM power through unshielded/twisted cables is not recommended. Unshielded/twisted cables function as antennas, which will radiate emissions into the nearby environment.
 
 ### Help
 
@@ -22,7 +22,7 @@ If you have questions, please join our [discord](https://discord.gg/z4XNk7Hkgw).
 ## Best Practices
 
 - Consult the best practices section of the Powercore V2.0 documentation. 
-- Avoid collision of the wire with the work. A collision may result in wire breakage, and cut failure. Ensure that the wire tool is rigidly mounted on it's motion platform. Unwanted vibration or movement of the wire tool during operation may result in cut failure or wire breakage.
+- Avoid collision of the wire with the work. A collision may result in wire breakage and cut failure. Ensure that the wire tool is rigidly mounted on its motion platform. Unwanted vibration or movement of the wire tool during operation may result in cut failure or wire breakage.
 
 ## Assembly
 
@@ -194,7 +194,7 @@ The following hardware is required for assembly of the WT-01:
 |Ceramic Wire Guide                   |         1         |
 |WC Block                             |         1         |
 |625RS Bearing                        |         4         |
-|18RPM 24V DC Motro                   |         1         |
+|18RPM 24V DC Motor                   |         1         |
 |Bowden Coupler                       |         2         |
 |Tension Spring                       |         1         |
 |M3 Rivnut                            |         1         |
@@ -452,22 +452,22 @@ Mounting the WT-01 in its base configuration on the Ender 3 is a simple task. Th
 
 ## Threading of Wire
 
-Threading is the act of guiding the brass EDM wire through the wire EDM tool. Here are a few tip for threading the wire tool: 
+Threading is the act of guiding the brass EDM wire through the wire EDM tool. Here are a few tips for threading the wire tool: 
 
-- Use a lighter to cut the brass EDM wire, not a clipper or knife. Clipping or cutting the wire with a tool leaves a bur on the wire, which prevents it from entering the ceramic wire guide. Burs can be avoided by placing the EDM wire into the flame of a lighter, and applying tension by hand. The heat melts the wire, and allows it to be drawn into a sharp point. This sharp point permits the brass EDM wire to enter the precision wire guide. 
-- Release tension on the system by loosening tension spring completely. Depress tension arm and manually feed wire through PTFE tube and wire guide.
-- Guide wire around first and second idler taking care to ensure wire sits below WC block.
-- Thread wire through hole in waste spool. Pull tight and hold wire out to the side near the axis of rotation of the waste spool.
+- Use a lighter to part the brass EDM wire, DO NOT cut it with a clipper or knife. Clipping or cutting of the wire leaves a burr on the wire, which prevents it from entering the ceramic wire guide. Burrs can be avoided by placing the EDM wire into the flame of a lighter, and applying tension by hand. The heat melts the wire, and allows it to be drawn into a sharp point. This sharp point permits the brass EDM wire to enter the precision wire guide. 
+- Release tension on the system by loosening tension spring completely; then depress the tension arm and manually feed the wire through the PTFE tube and wire guide.
+- Guide wire around the first and second idler, taking care to ensure that the wire sits below the WC block.
+- Thread the wire through the hole in the waste spool. Pull tight and hold the wire out to the side near the the waste spool's axis of rotation.
 - Re-apply tension by tightening the screw on the tension arm.
-- Turn on spool motor and allow at least 5 full turns before letting go of wire.
-- Excess wire used for threading may now be broken off of waste spool.
+- Turn on the spool motor and allow at least 5 full turns before letting go of wire.
+- Excess wire used for threading may now be broken off of the waste spool.
 - WT-01 is now threaded and ready to cut.
 
 ## Integrating Flushing
 
-The wire tool supports dielectric flushing. Flushing dramatically improves cutting reliability and cutting speed. Dielectric (water) remove EDM chips from the cut, and cools the wire. Most problems in wire EDM are solved by adding more dielectric flushing. it is recommended to use a 100 PSI water pump with the Wire Tool.
+The wire tool supports dielectric flushing. Flushing dramatically improves cutting reliability and cutting speed. Dielectric (distilled water or EDM oil) removes EDM chips from the cut and cools the wire. Most problems in wire EDM are solved by adding more dielectric flushing. It is recommended to use a 100 PSI water pump with the Wire Tool.
 
-## Trouble Shooting
+## Troubleshooting
 
 (TO BE ADDED)
 
