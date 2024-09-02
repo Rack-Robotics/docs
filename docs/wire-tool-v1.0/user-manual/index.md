@@ -466,6 +466,8 @@ Threading is the act of guiding the brass EDM wire through the wire EDM tool. He
 
 The wire tool supports dielectric flushing. Flushing dramatically improves cutting reliability and cutting speed. Dielectric (distilled water or EDM oil) removes EDM chips from the cut and cools the wire. Most problems in wire EDM are solved by adding more dielectric flushing. It is recommended to use a 100 PSI water pump with the Wire Tool.
 
+**It is highly recommended to use ONLY WATER for EDM cutting when possible. Oil and other common hydrocarbon dielectrics (e.g. diesel fuel), have an inherent fire and explosion hazard.**
+
 ## Troubleshooting
 
 (TO BE ADDED)
