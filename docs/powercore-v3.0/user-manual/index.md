@@ -1,4 +1,4 @@
-# Powercore V3.0 User Manual [UNDER CONTRUCTION]
+# [UNDER CONTRUCTION] Powercore V3.0 User Manual
 
 ## What is the Powercore V3.0? 
 ### What is wire EDM? 
@@ -29,4 +29,4 @@ If you have questions, please join our [discord](https://discord.gg/z4XNk7Hkgw).
 
 ## Contributing 
 
-Want to chat? Please join our [discord](https://discord.gg/z4XNk7Hkgw). 
+Want to chat? Please join our [discord](https://discord.gg/z4XNk7Hkgw).
