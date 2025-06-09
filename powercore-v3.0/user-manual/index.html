@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Rack Robotics Docs</title>
-<meta content="tags - Rack Robotics Docs" property="og:title">
+<meta content="powercore-v3.0 - Rack Robotics Docs" property="og:title">
 <meta name="theme-color" content="#FF4F00">
 <link rel="icon" type="image/svg+xml" href=https://rack-robotics.github.io/docs/logo.svg />
 
@@ -70,7 +70,40 @@
     </div>
 </aside>
         <main class="content">
-            
+            <h1 id="powercore-v30-user-manual-under-contruction">Powercore V3.0 User Manual [UNDER CONTRUCTION]</h1>
+<h2 id="what-is-the-powercore-v30">What is the Powercore V3.0?</h2>
+<h3 id="what-is-wire-edm">What is wire EDM?</h3>
+<h3 id="safety">Safety</h3>
+<p><strong>DANGER</strong> The Powercore V3.0 operates at a potentially hazardous voltage of XXX - XXX VDC, and supplies high-power waveforms
+<strong>POTENTIAL FOR DAMAGE</strong></p>
+<h3 id="help">Help</h3>
+<p>If you find that there&rsquo;s something unclear in this documentation, please <a href="https://github.com/Rack-Robotics/docs.git">submit a ticket on Github</a>.</p>
+<p>If you have questions, please join our <a href="https://discord.gg/z4XNk7Hkgw">discord</a>.</p>
+<h2 id="powercore-v30-io-ports">Powercore V3.0 IO Ports</h2>
+<table>
+<thead>
+<tr>
+<th>Port</th>
+<th>Description</th>
+</tr>
+</thead>
+</table>
+<p><img src="" alt="Powercore V3.0 Front Ports with Polarity Indicators"></p>
+<h2 id="best-practices">Best Practices</h2>
+<ul>
+<li>
+<p>Avoid short circuits. A short circuit occurs when the POWER port outputs short together. This may happen if wiring is incorrect, or the cutting electrode collides with the work. A prolonged short circuit can damage the Powercore.</p>
+</li>
+<li>
+<p>When integrating the Powercore V3.0 into a wire EDM build, ensure that the EN port fails to an off default state during machine shutoff.</p>
+</li>
+<li>
+<p>Avoid disconnecting main power from the Powercore V3.0 while the device is enabled.</p>
+</li>
+</ul>
+<h2 id="contributing">Contributing</h2>
+<p>Want to chat? Please join our <a href="https://discord.gg/z4XNk7Hkgw">discord</a>.</p>
+
         </main>
         <aside class="content-overview">
     <h2>On This Page</h2>

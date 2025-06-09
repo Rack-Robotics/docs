@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rack Robotics Docs</title>
+    <link>https://rack-robotics.github.io/docs/powercore-v3.0/</link>
+    <description>Recent content on Rack Robotics Docs</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://rack-robotics.github.io/docs/powercore-v3.0/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://rack-robotics.github.io/docs/powercore-v3.0/user-manual/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://rack-robotics.github.io/docs/powercore-v3.0/user-manual/</guid>
+      <description>Powercore V3.0 User Manual [UNDER CONTRUCTION] What is the Powercore V3.0? What is wire EDM? Safety DANGER The Powercore V3.0 operates at a potentially hazardous voltage of XXX - XXX VDC, and supplies high-power waveforms POTENTIAL FOR DAMAGE&#xA;Help If you find that there&amp;rsquo;s something unclear in this documentation, please submit a ticket on Github.&#xA;If you have questions, please join our discord.&#xA;Powercore V3.0 IO Ports Port Description Best Practices Avoid short circuits.</description>
+    </item>
+  </channel>
+</rss>
