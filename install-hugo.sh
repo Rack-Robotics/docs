@@ -13,15 +13,16 @@ fi
 VFILE=".hugoversion"
 VERSION=$(cat $VFILE)
 
-echo "Searching for Hugo $VERSION"
+TAG_URL="https://api.github.com/repos/gohugoio/hugo/releases/tags/$VERSION"
+echo "Searching for Hugo $VERSION at $TAG_URL"
 
-URL=`curl -s https://api.github.com/repos/gohugoio/hugo/releases \
-      | jq -r --arg version $VERSION \
-          '[.[] 
-          | select(.tag_name == $version) 
-          | .assets[] 
-          | select(.browser_download_url | test("hugo_extended(.*)Linux-64bit"))][0]
-          | .browser_download_url'`
+URL=$(curl -s "$TAG_URL" |
+    jq -r '[.assets[] | select(.browser_download_url | test("hugo_extended.*Linux-64bit"))][0] | .browser_download_url')
+
+if [[ -z "$URL" || "$URL" == "null" ]]; then
+  echo "Could not find a suitable Hugo binary for $VERSION."
+  exit 1
+fi
 
 echo "Found $URL"
 
