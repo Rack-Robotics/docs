@@ -93,7 +93,7 @@
 </tr>
 </thead>
 </table>
-<p><img src="" alt="Powercore V3.0 Front Ports with Polarity Indicators"></p>
+<p><img src="images/PC-03PORTDIAGRAM.png" alt="Powercore V3.0 Front Ports with Polarity Indicators"></p>
 <h2 id="basics-of-operation">Basics of Operation</h2>
 <h3 id="startup">Startup</h3>
 <p>When first starting up the Powercore, it is a good idea to have it connected via USB and to have your serial monitor open. <em>We use the Arduino IDE at a baud rate of 9600</em>. This will allow you to read any potential error messages and to positively determine startup success.</p>
@@ -118,7 +118,7 @@ Boost Converter Digital Potentiometer Voltage Table:
 <p>To enter Iso-frequency mode for EDM, the enable port must be pulled high to 3.3 V. If the enable port is not pulled high, the device remains in idle mode.</p>
 <p>Once cutting is enabled, your motion system may be commanded to proceed towards the workpiece with your electrode. Cutting speeds differ with motion system configuration, each combination of work material and electrode material, their thicknesses, and <em>electrode polarity</em>.</p>
 <p>Electrode polarity describes which portion of the output your electrode is connected to. Electrode negative indicates that your electrode (e.g. brass EDM wire) is connected to the negative side of the Powercore&rsquo;s output terminal. Electrode positive indicates that your electrode is connected to the positive side of the Powercore&rsquo;s output terminal.</p>
-<p><strong>Note</strong>: It is not recommended to perform plunge EDM in an open-loop control state. This is extremely likely to create a prolonged short across a wide surface area and may damage the Powercore.</p>
+<p><strong>Note</strong>: It is NOT RECOMMENDED to perform plunge EDM in an open-loop control state. This is extremely likely to create a prolonged short across a wide surface area and <strong>may damage the Powercore</strong>.</p>
 <h2 id="best-practices">Best Practices</h2>
 <ul>
 <li>
