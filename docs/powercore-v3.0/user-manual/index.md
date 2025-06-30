@@ -1,12 +1,14 @@
-# [UNDER CONTRUCTION. SPECIFIC APPLICATION NOTES TO COME.] Powercore V3.0 User Manual
+# Powercore V3.0 User Manual
+
+## [UNDER CONTRUCTION.]
 
 ## What is the Powercore V3.0? 
 The Powercore V3.0 is an open-source wire EDM (electrical discharge machining) power supply developed by Rack Robotics. It aims to provide a cost-effective and easily replicable solution for wire EDM enthusiasts and professionals.
 ### What is wire EDM? 
-Wire Electrical Discharge Machining (Wire EDM) is a manufacturing process used to cut intricate shapes and contours in electrically conductive materials, such as metals. It operates by generating a series of rapid electrical discharges between a thin, electrically charged wire (usually made of brass) and the workpiece, which is submerged in a dielectric fluid (usually water). The electrical discharges create intense localized heat, which melts and vaporizes small portions of the material. This allows for the creation of complex geometries with high accuracy and fine surface finishes.
-### Safety
-**DANGER** The Powercore V3.0 operates at a potentially hazardous voltage of 48 - 150 VDC, and supplies high-power waveforms
-**POTENTIAL FOR DAMAGE**
+Wire Electrical Discharge Machining (Wire EDM or WEDM) is a manufacturing process used to cut intricate shapes and contours in electrically conductive materials, such as metals. It operates by generating a series of rapid electrical discharges (sparks) between a thin, electrically charged wire (usually made of brass) and the workpiece, which is submerged in a dielectric fluid (usually water). The electrical discharges create intense localized heat, which melts and vaporizes small portions of the material. This allows for the creation of complex geometries with high accuracy and fine surface finishes.
+### DANGER
+- The Powercore V3 operates at a potentially hazardous voltage of 48 - 150 VDC, and supplies high-power waveforms. DO NOT TOUCH the Powercore V3 or any exposed electrical conductor, workpiece, or electrode during the EDM process
+- EDM produces strong electromagnetic fields and may interact with medical implants. DO NOT operate the Powercore V3 or occupy a space near the Powercore V3 if you have a medical implant
 
 ### Help
 
