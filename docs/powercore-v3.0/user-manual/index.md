@@ -21,7 +21,7 @@ If you have questions, please join our [discord](https://discord.gg/z4XNk7Hkgw).
  Port | Description |
 | --- | --- |
 
-![Powercore V3.0 Front Ports with Polarity Indicators]()
+![Powercore V3.0 Front Ports with Polarity Indicators](images/PC-03PORTDIAGRAM.png)
 
 ## Basics of Operation
 
@@ -63,7 +63,7 @@ Once cutting is enabled, your motion system may be commanded to proceed towards 
 
 Electrode polarity describes which portion of the output your electrode is connected to. Electrode negative indicates that your electrode (e.g. brass EDM wire) is connected to the negative side of the Powercore's output terminal. Electrode positive indicates that your electrode is connected to the positive side of the Powercore's output terminal.
 
-**Note**: It is not recommended to perform plunge EDM in an open-loop control state. This is extremely likely to create a prolonged short across a wide surface area and may damage the Powercore.
+**Note**: It is NOT RECOMMENDED to perform plunge EDM in an open-loop control state. This is extremely likely to create a prolonged short across a wide surface area and **may damage the Powercore**.
 
 
 ## Best Practices
