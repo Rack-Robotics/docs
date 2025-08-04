@@ -73,8 +73,8 @@ li {
 /* Code */
 code, pre {
     font-family: 'Fira Code', 'Consolas', 'Monaco', monospace;
-    color: #FF4F00;
-    background-color: #e0e0e0;
+    color: var(--text-color);
+    background-color: var(--form-input-background-color);
     padding: 0.2em 0.4em;
     border-radius: 3px;
 }
