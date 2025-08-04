@@ -74,13 +74,15 @@ li {
 code, pre {
     font-family: 'Fira Code', 'Consolas', 'Monaco', monospace;
     color: var(--text-color);
-    background-color: var(--form-input-background-color);
+    background-color: var(--sidebar-background-color);
     padding: 0.2em 0.4em;
     border-radius: 3px;
 }
 pre {
     padding: 1em;
     overflow: auto;
+    border: solid 1px var(--brand-color);
+    border-radius: 8px;
 }
 
 /* Blockquotes */
