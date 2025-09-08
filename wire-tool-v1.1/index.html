@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rack Robotics Docs</title>
+<meta content="wire-tool-v1.1 - Rack Robotics Docs" property="og:title">
+<meta name="theme-color" content="#FF4F00">
+<link rel="icon" type="image/svg+xml" href=https://rack-robotics.github.io/docs/logo.svg />
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href=https://rack-robotics.github.io/docs/css/type.css>
+<link rel="stylesheet" href=https://rack-robotics.github.io/docs/css/style.css>
+</head>
+<body>
+    <header class="site-header">
+    <div class="logo">Rack Robotics Docs</div>
+    <nav class="navbar">
+        <ul class="nav-list">
+            <li><a href="https://rackrobo.io/">Store</a></li>
+            
+        </ul>
+    </nav>
+    <div class="mobile-menu" onclick="toggleMenu()">&#9776;</div>
+</header>
+
+    <div class="container">
+        <aside class="sidebar">
+    <div class="sidebar-header">
+        <input type="text" placeholder="Search..." class="sidebar-search">
+    </div>
+    <nav class="sidebar-nav">
+        <ul>
+            
+                <h4 class="brand-color">Powercore v2.0</h4>
+                <ul>
+                    
+                        <li><a href="https://rack-robotics.github.io/docs/powercore-v2.0/user-manual/">User manual</a></li>
+                    
+                </ul>
+            
+                <h4 class="brand-color">Powercore v3.0</h4>
+                <ul>
+                    
+                        <li><a href="https://rack-robotics.github.io/docs/powercore-v3.0/user-manual/">User manual</a></li>
+                    
+                </ul>
+            
+                <h4 class="brand-color">Wire tool v1.0</h4>
+                <ul>
+                    
+                        <li><a href="https://rack-robotics.github.io/docs/wire-tool-v1.0/user-manual/">User manual</a></li>
+                    
+                </ul>
+            
+                <h4 class="brand-color">Wire tool v1.1</h4>
+                <ul>
+                    
+                        <li><a href="https://rack-robotics.github.io/docs/wire-tool-v1.1/user-manual/">User manual</a></li>
+                    
+                </ul>
+            
+        </ul>
+    </nav>
+    <div class="sidebar-footer">
+        <div class="theme-switch-wrapper" onclick="toggleTheme()">
+            <label class="theme-switch" for="theme-mode">
+                <input type="checkbox" id="theme-mode" />
+                <div class="slider round"></div>
+            </label>
+            <div class="moon-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 40"><path fill="currentColor" d="M27.492 18.66a10.736 10.736 0 0 1-2.187.22 11.012 11.012 0 0 1-11-11 10.674 10.674 0 0 1 .557-3.439 1 1 0 0 0-1.143-1.3 13 13 0 1 0 14.927 16.81 1 1 0 0 0-1.154-1.291Z"/></svg>
+            </div>
+        </div> 
+    </div>
+</aside>
+        <main class="content">
+            
+        </main>
+        <aside class="content-overview">
+    <h2>On This Page</h2>
+    <ul></ul>
+</aside>
+    </div>
+    <script>
+    function toggleMenu() {
+        document.querySelector('.sidebar').classList.toggle('open');
+    }
+
+    const themeMode = document.querySelector('#theme-mode');
+    const currentTheme = localStorage.getItem('theme') || 'dark';
+    document.documentElement.setAttribute('data-theme', currentTheme);
+    themeMode.checked = currentTheme === 'dark';
+    function toggleTheme() {
+        themeMode.checked = !themeMode.checked;
+        var theme = themeMode.checked ? 'dark' : 'light';
+        document.documentElement.setAttribute('data-theme', theme);
+        localStorage.setItem('theme', theme);
+    }
+
+    
+    const headerSelector = ['h1', 'h2', 'h3', 'h4', 'h5', 'h6'].map((tag) => '.content ' + tag).join(', ');
+    const headers = document.querySelectorAll(headerSelector);
+    const headerTree = { parent: null, children: [], level: 0 };
+    let currentLevel = null;
+    let currentLevelRef = headerTree;
+    headers.forEach((header) => {
+        const level = parseInt(header.tagName[1]);
+        const node = { text: header.textContent, el: header, children: [], level };
+        if (currentLevel == null) {
+            node.parent = headerTree;
+            headerTree.children.push(node);
+            currentLevel = level;
+        } else if (level == currentLevel) {
+            node.parent = currentLevelRef;
+            currentLevelRef.children.push(node);
+        } else if (level > currentLevel) {
+            currentLevelRef = currentLevelRef.children[currentLevelRef.children.length - 1];
+            node.parent = currentLevelRef;
+            currentLevelRef.children.push(node);
+            currentLevel = level;
+        } else if (level < currentLevel) {
+            while (currentLevelRef.level != level) {
+                currentLevelRef = currentLevelRef.parent;
+            }
+            currentLevelRef = currentLevelRef.parent;
+            node.parent = currentLevelRef;
+            currentLevelRef.children.push(node);
+            currentLevel = level;
+        }
+    });
+    
+    
+    const contentOverview = document.querySelector('.content-overview ul');
+    function createContentOverview(node, parent) {
+        const li = document.createElement('li');
+        const a = document.createElement('a');
+        a.href = '#' + node.el.id;
+        a.textContent = node.text;
+        a.onclick = () => {
+            node.el.scrollIntoView({ behavior: 'smooth' });
+        };
+        li.appendChild(a);
+        if (node.children.length > 0) {
+            const ul = document.createElement('ul');
+            ul.classList.add('nest');
+            node.children.forEach((child) => {
+                createContentOverview(child, ul);
+            });
+            li.appendChild(ul);
+        }
+        parent.appendChild(li);
+    }
+    
+    headerTree.children.forEach((child) => {
+        createContentOverview(child, contentOverview);
+    });
+    
+    
+    if (headers.length <= 1) {
+        document.querySelector('.content-overview').style.display = 'none';
+    }
+</script>
+</body>
+</html>

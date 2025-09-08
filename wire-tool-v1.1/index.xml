@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wire-Tool-V1.1s on Rack Robotics Docs</title>
+    <link>https://rack-robotics.github.io/docs/wire-tool-v1.1/</link>
+    <description>Recent content in Wire-Tool-V1.1s on Rack Robotics Docs</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://rack-robotics.github.io/docs/wire-tool-v1.1/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://rack-robotics.github.io/docs/wire-tool-v1.1/user-manual/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://rack-robotics.github.io/docs/wire-tool-v1.1/user-manual/</guid>
+      <description>Wire Tool V1.1 User Manual (UNDER CONSTRUCTION AS OF 25.09.07. DO NOT USE.) What is the Wire Tool V1.1? The Wire Tool V1.1 is simplified and improved open-source wire EDM (electrical discharge machining) wire EDM toolhead developed by Rack Robotics. It aims to provide a cost-effective and easily hackable solution for wire EDM enthusiasts and professionals. The Wire Tool V1.1 is designed to be mounted to a CNC motion system of the user&amp;rsquo;s choice.</description>
+    </item>
+  </channel>
+</rss>
