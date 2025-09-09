@@ -159,13 +159,6 @@ Install magnets in accordance with the following images:
 ![Tool_Mount_Cover_Magnet](images/MAGNET_Tool_Mount_Cover_1.png)
 ![Tool_Mount_Cover_Magnet](images/MAGNET_Tool_Mount_Cover_2.png)
 
-### Tensioner Cover
-
-![Tensioner_Cover_Magnet](images/MAIN_Tensioner_Cover_1.png)
-![Tensioner_Cover_Magnet](images/MAIN_Tensioner_Cover_2.png)
-![Tensioner_Cover_Magnet](images/MAGNET_Tensioner_Cover_1.png)
-![Tensioner_Cover_Magnet](images/MAGNET_Tensioner_Cover_2.png)
-
 ## Mechanical Assembly
 
 When assembling the WT-01, care must be taken not to cross thread fasteners into the aluminum endoskeleton. If fasteners are cross threaded, the type III anodizing may be damaged, exposing the bare aluminum to water. This will lead to corrosion and premature degradation of your WT-01. The grounding screw position is intentionally not anodized. While this part is above the waterline, you may add dielectric grease to this connection to prevent corrosion. 
