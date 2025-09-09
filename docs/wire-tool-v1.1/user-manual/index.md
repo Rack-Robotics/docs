@@ -138,17 +138,6 @@ Install magnets in accordance with the following images:
 ![Tool_Mount_Magnet](images/MAGNET_Tool_Mount_1.png)
 ![Tool_Mount_Magnet](images/MAGNET_Tool_Mount_2.png)
 
-### Tensioner Body
-
-![Tensioner_Body_Magnet](images/MAGNET_Tensioner_Body_1.png)
-![Tensioner_Body_Magnet](images/MAGNET_Tensioner_Body_2.png)
-
-### Flushing Cap
-
-![Flushing_Cap_Magnet](images/MAIN_Flushing_Cap_1.png)
-![Flushing_Cap_Magnet](images/MAGNET_Flushing_Cap_1.png)
-![Flushing_Cap_Magnet](images/MAGNET_Flushing_Cap_2.png)
-
 ### Front Lower Cover
 
 ![Front_Lower_Cover_Magnet](images/MAIN_Front_Lower_Cover_1.png)
