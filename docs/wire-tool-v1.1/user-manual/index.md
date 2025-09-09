@@ -113,15 +113,6 @@ Install the threaded inserts in accordance with the following images:
 ![Tension_Arm](images/INSERT_Tension_Arm_1.png)
 ![Tension_Arm](images/INSERT_Tension_Arm_2.png)
 
-### Tensioner Body
-
-![Tension_Body](images/MAIN_Tensioner_Body_1.png)
-![Tension_Body](images/MAIN_Tensioner_Body_2.png)
-![Tension_Body](images/INSERT_Tensioner_Body_1.png)
-![Tension_Body](images/INSERT_Tensioner_Body_2.png)
-![Tension_Body](images/INSERT_Tensioner_Body_3.png)
-![Tension_Body](images/INSERT_Tensioner_Body_4.png)
-
 ## Magnet Installation
 
 Magnets are used to retain safety covers on the WT-01. All magnets provided are M6x2. Magnets should fit snugly into their recesses, a small drop of super glue will prevent the magnets from working their way out after many cycles of cover installation and removal. Installation may be eased with the use of a steel rod to press magnets into place.
