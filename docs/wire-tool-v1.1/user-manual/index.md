@@ -170,20 +170,19 @@ All hardware required for assembly is included with the WT-01 kit from Rack Robo
 |Part                                 |Number Required    |
 |-------------------------------------|-------------------|
 |Endoskeleton                         |         1         |
-|Ceramic Wire Guide                   |         1         |
-|WC Block                             |         1         |
+|Ceramic Wire Guide                   |         2         |
 |625RS Bearing                        |         4         |
 |18RPM 24V DC Motor                   |         1         |
-|Bowden Coupler                       |         2         |
+|Bowden Coupler                       |         1         |
 |Tension Spring                       |         1         |
 |M3 Rivnut                            |         1         |
 |135mm PTFE Tube                      |         1         |
 |Wago 221-412                         |         4         |
-|M3x8 Buttonhead Cap Screw            |         6         |
-|M3x16 Countersunk Screw              |         1         |
-|M4x16 Countersunk Screw              |         11        |
+|M3x8 Buttonhead Cap Screw            |         5         |
+|M5x16 Countersunk Screw              |         11        |
 |M4x25 Buttonhead Cap Screw           |         1         |
 |M5x12 Buttonhead Cap Screw           |         1         |
+|M5x12 Undersized Dowel Pin           |         2         |
 
 ## Subcomponents
 
