@@ -193,7 +193,7 @@ Requires:
 ![Idler_Assm](images/ASSM_Idler_1.png)
 ![Idler_Assm](images/ASSM_Idler_2.png)
 
-**ALERT.** While bearing fit may be slightly tight, it is advised to add a small amount of superglue here prior to installation. Apply light coating only on interior walls of Idler print. This will ensure retention through the life of the bearing. Bearings will corrode over time. Extras have been included in the Wire Tool Kit.
+**ALERT.** While bearing fit may be slightly tight, it is advised to add a small amount of superglue here prior to installation. Apply light coating only on interior walls of Idler print. This will ensure retention through the life of the bearing. Bearings will corrode over time.
 
 ![Idler_Assm](images/ASSM_Idler_3.png)
 ![Idler_Assm](images/ASSM_Idler_4.png)
@@ -246,9 +246,11 @@ Complete the mechanical assembly of the WT-01 in accordance with the following i
 ### Front Lower Base
 Requires:
 - Endoskeleton
-- Front Lower Base Print
+- Front Base Print
 - Idler Assembly (2x)
-- M4x16 Countersunk Screw (2x)
+- JGY-370 Motor
+- M3x8 BHCS (5x)
+- M5x16 Countersunk Screw (5x)
 
 ![Front_Lower_Base_Assm](images/ASSM_Front_Lower_Base_1.png)
 ![Front_Lower_Base_Assm](images/ASSM_Front_Lower_Base_2.png)
@@ -262,6 +264,9 @@ When replacing idler bearings, this deformation will prevent removal. Either rep
 
 ![Front_Lower_Base_Assm](images/ASSM_Front_Lower_Base_6.png)
 ![Front_Lower_Base_Assm](images/ASSM_Front_Lower_Base_7.png)
+![Front_Lower_Base_Assm](images/ASSM_Front_Lower_Base_8.png)
+![Front_Lower_Base_Assm](images/ASSM_Front_Lower_Base_9.png)
+![Front_Lower_Base_Assm](images/ASSM_Front_Lower_Base_10.png)
 
 ### Back Lower Base
 Requires:
