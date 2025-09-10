@@ -61,7 +61,7 @@ Critical print settings are as follows:
 |Top Shell Layers          |         4     |
 |Sparse Infill Density     |       15%     |
 |Sparse Infill Pattern     |     Cubic     |
-|Generate Supports         |        No     |
+|Generate Supports         |        Yes    |
 
 The different slicer settings for the Tension Arm is as follows:
 
@@ -77,18 +77,12 @@ The different slicer settings for the Tension Arm is as follows:
 |---------------------|-------------------|----------------|-------------------------------|
 |Back Lower Base      |         1         |        N       |N                              |
 |Back Lower Cover     |         1         |        Y       |N                              |
-|Fastener Cap         |         1         |        N       |N                              |
-|Flushing Cap         |         1         |        N       |N                              |
-|Front Base Cover     |         1         |        Y       |Y                              |
+|Front Base           |         1         |        N       |Y                              |
 |Idler                |         2         |        N       |N                              |
-|Insulating Boss      |         1         |        N       |N                              |
 |Motor Cover          |         1         |        N       |N                              |
-|Motor Mount          |         1         |        N       |N                              |
-|Pinch Roller Bushing |         1         |        N       |N                              |
 |Spool Puller         |         1         |        N       |N                              |
 |Tension Arm          |         1         |        N       |Y                              |
-|Tensioner Body       |         1         |        N       |Y                              |
-|Tensioner Cover      |         1         |        Y       |N                              |
+|Front     Cover      |         1         |        Y       |N                              |
 |Tool Mount Ender 3   |         1         |        N       |N                              |
 |Tool Mount Cover     |         1         |        Y       |N                              |
 
@@ -121,7 +115,7 @@ Magnets are used to retain safety covers on the WT-01. All magnets provided are 
 
 Install magnets in accordance with the following images:
 
-### Front Lower Base
+### Front Base
 
 ![Front_Base_Magnet](images/MAGNET_Lower_Front_Base_1.png)
 ![Front_Base_Magnet](images/MAGNET_Lower_Front_Base_2.png)
@@ -219,10 +213,10 @@ Requires:
 ![Tension_Arm_Assm](images/ASSM_Tension_Arm_4.png)
 ![Tension_Arm_Assm](images/ASSM_Tension_Arm_5.png)
 
-### Flushing Cap
+### Ceramic Guides
 Requires:
-- Flushing Cap Print
-- Ceramic Wire Guide
+- Front Base Print
+- Ceramic Wire Guides
 
 ![Flushing_Cap_Assm](images/ASSM_Flushing_Cap_1.png)
 ![Flushing_Cap_Assm](images/ASSM_Flushing_Cap_2.png)
