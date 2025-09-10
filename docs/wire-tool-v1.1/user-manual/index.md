@@ -271,7 +271,7 @@ When replacing idler bearings, this deformation will prevent removal. Either rep
 ### Back Lower Base
 Requires:
 - Back Lower Base Print
-- M4x16 Countersunk Screw (3x)
+- M5x16 Countersunk Screw (3x)
 
 ![Back_Lower_Base_Assm](images/ASSM_Back_Lower_Base_1.png)
 ![Back_Lower_Base_Assm](images/ASSM_Back_Lower_Base_2.png)
