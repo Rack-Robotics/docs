@@ -208,29 +208,24 @@ Requires:
 ![Tension_Arm_Assm](images/ASSM_Tension_Arm_2.png)
 ![Tension_Arm_Assm](images/ASSM_Tension_Arm_3.png)
 
-**ALERT.** Use caution when installing M5x12 BHCS. This screws directly into plastic on the rear side. Install with light force until snug in part. Do not overtighten and strip hole.
+**NOTE.** If available, a vice or arbor press is especially helpful for installation of pins. Pins are undersized, but should self retain in the hole.
 
 ![Tension_Arm_Assm](images/ASSM_Tension_Arm_4.png)
 ![Tension_Arm_Assm](images/ASSM_Tension_Arm_5.png)
 
-### Ceramic Guides
+### Front Base
 Requires:
 - Front Base Print
 - Ceramic Wire Guides
+- M5x12 Undersized Dowel Pin
+- Bowden Coupler
+- PTFE Tube
+
+**NOTE.** A flat tool such as a non-metallic scraper is helpful for installation of ceramic wire guides. Installation will be snug. A small dot of superglue on the side of the guide may be helpful for retention after installing.
 
 ![Flushing_Cap_Assm](images/ASSM_Flushing_Cap_1.png)
 ![Flushing_Cap_Assm](images/ASSM_Flushing_Cap_2.png)
 ![Flushing_Cap_Assm](images/ASSM_Flushing_Cap_3.png)
-
-### Tensioner Body
-Requires:
-- Tensioner Body Print
-- Flushing Cap Assembly
-- M3x8 Button Head Cap Screw (2x)
-- Bowden Coupler (2x)
-- PTFE Tube
-
-![Tensioner_Body_Assm](images/ASSM_Tensioner_Body_1.png)
 
 **NOTE.** Bowden couplers are supplied with gaskets installed. These gaskets are the black plastic and rubber portions. *Remove these prior to installation.* Install blue collar prior to installation.
 
