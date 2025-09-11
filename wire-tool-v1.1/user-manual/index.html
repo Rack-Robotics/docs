@@ -77,9 +77,22 @@
     </div>
 </aside>
         <main class="content">
-            <h1 id="wire-tool-v11-user-manual-under-construction-as-of-250907-do-not-use">Wire Tool V1.1 User Manual (UNDER CONSTRUCTION AS OF 25.09.07. DO NOT USE.)</h1>
+            <h1 id="wire-tool-v11-user-manual-under-construction-use-at-your-own-discretion">Wire Tool V1.1 User Manual (UNDER CONSTRUCTION. USE AT YOUR OWN DISCRETION.)</h1>
 <h2 id="what-is-the-wire-tool-v11">What is the Wire Tool V1.1?</h2>
 <p>The Wire Tool V1.1 is simplified and improved open-source wire EDM (electrical discharge machining) wire EDM toolhead developed by Rack Robotics. It aims to provide a cost-effective and easily hackable solution for wire EDM enthusiasts and professionals. The Wire Tool V1.1 is designed to be mounted to a CNC motion system of the user&rsquo;s choice.</p>
+<h3 id="changes-from-v10-to-v11">Changes from V1.0 to V1.1</h3>
+<p>A brief list of changes on the V1.1 Wire Tool Kit are as follows:</p>
+<ul>
+<li>Dual wire guides for significant cut quality increase</li>
+<li>Pin retained bearings on pinch roller for greater consistency</li>
+<li>Deeper idler grooves for easier threading</li>
+<li>M5 fastener for energizer instead of WC block (allows us to maintain price and increase repairability)</li>
+<li>Significantly easier to remove waste spool (does not require tools)</li>
+<li>More durable motor cover that is easier to install and remove</li>
+<li>Significant consolidation of printed parts to simplify build</li>
+<li>Fewer parts overall</li>
+</ul>
+<p>In general, this is an easier build than the V1.0 with less diversity of parts. You should be able to replace your energizer more easily if need be without the requirement of an expensive, EDM-specific component.</p>
 <p><strong>NOTE:</strong>
 While Rack Robotics cannot currently give specific mption system recommendations, stiffness, motion precision, and system mass are all highly desirable in a WEDM machine.</p>
 <p>An example of a poor choice for a motion system is an Ender 3 3D printer. An example of an almost ideal choice for a motion system would be a welded metal tank with ballscrew and linear rail actuators mounted on it.</p>
@@ -470,68 +483,25 @@ Requires:</p>
 <img src="images/ASSM_Back_Lower_Base_2.png" alt="Back_Lower_Base_Assm">
 <img src="images/ASSM_Back_Lower_Base_3.png" alt="Back_Lower_Base_Assm">
 <img src="images/ASSM_Back_Lower_Base_4.png" alt="Back_Lower_Base_Assm">
-<img src="images/ASSM_Back_Lower_Base_5.png" alt="Back_Lower_Base_Assm"></p>
+<img src="images/ASSM_Back_Lower_Base_5.png" alt="Back_Lower_Base_Assm">
+<img src="images/ASSM_Back_Lower_Base_6.png" alt="Back_Lower_Base_Assm">
+<img src="images/ASSM_Back_Lower_Base_7.png" alt="Back_Lower_Base_Assm">
+<img src="images/ASSM_Back_Lower_Base_8.png" alt="Back_Lower_Base_Assm">
+<img src="images/ASSM_Back_Lower_Base_9.png" alt="Back_Lower_Base_Assm"></p>
 <h3 id="tool-mount-1">Tool Mount</h3>
 <p>Requires:</p>
 <ul>
 <li>Tool Mount Print</li>
-<li>M5x</li>
-<li>Tension Spring</li>
-<li>M3 Rivnut</li>
-</ul>
-<p><img src="images/ASSM_Tensioner_Body_Sec_1.png" alt="Tensioner_Body_Section">
-<img src="images/ASSM_Tensioner_Body_Sec_2.png" alt="Tensioner_Body_Section"></p>
-<p><strong>NOTE.</strong> Printed stationary pinch roller boss is designed to deform upon installation of M4x16 CS screw. This deformation will provide a more secure location for the pinch roller.</p>
-<p><img src="images/ASSM_Tensioner_Body_Sec_3.png" alt="Tensioner_Body_Section">
-<img src="images/ASSM_Tensioner_Body_Sec_4.png" alt="Tensioner_Body_Section">
-<img src="images/ASSM_Tensioner_Body_Sec_5.png" alt="Tensioner_Body_Section">
-<img src="images/ASSM_Tensioner_Body_Sec_6.png" alt="Tensioner_Body_Section">
-<img src="images/ASSM_Tensioner_Body_Sec_7.png" alt="Tensioner_Body_Section">
-<img src="images/ASSM_Tensioner_Body_Sec_8.png" alt="Tensioner_Body_Section">
-<img src="images/ASSM_Tensioner_Body_Sec_9.png" alt="Tensioner_Body_Section">
-<img src="images/ASSM_Tensioner_Body_Sec_10.png" alt="Tensioner_Body_Section">
-<img src="images/ASSM_Tensioner_Body_Sec_11.png" alt="Tensioner_Body_Section"></p>
-<h3 id="tool-mount-2">Tool Mount</h3>
-<p>Requires:</p>
-<ul>
-<li>Tool Mount Print</li>
-<li>M4x16 Countersunk Screw (3x)</li>
+<li>M5x16 Screw (2x)</li>
 <li>Wago 221-412 (4x)</li>
 </ul>
 <p><img src="images/ASSM_Tool_Mount_1.png" alt="Tool_Mount_Assm">
-<img src="images/ASSM_Tool_Mount_2.png" alt="Tool_Mount_Assm">
-<img src="images/ASSM_Tool_Mount_3.png" alt="Tool_Mount_Assm">
+<img src="images/ASSM_Tool_Mount_2.png" alt="Tool_Mount_Assm"></p>
+<p><strong>NOTE.</strong> The grounding wire ring terminal must be installed with the <em>lower M5x16 BHCS</em> at this point. It is important that you install the grounding stap on the lower position as that is the only hole on the endoskeleton that has not been anodized. An anodized layer will prevent grounding of the frame.</p>
+<p><img src="images/ASSM_Tool_Mount_3.png" alt="Tool_Mount_Assm">
 <img src="images/ASSM_Tool_Mount_4.png" alt="Tool_Mount_Assm">
 <img src="images/ASSM_Tool_Mount_5.png" alt="Tool_Mount_Assm">
 <img src="images/ASSM_Tool_Mount_6.png" alt="Tool_Mount_Assm"></p>
-<h3 id="spool-motor-and-base">Spool Motor and Base</h3>
-<p>Requires:</p>
-<ul>
-<li>Motor Base Print</li>
-<li>Motor Cover Print</li>
-<li>18RPM DC Motor</li>
-<li>M3x8 Buttonhead Cap Screw (4x)</li>
-<li>M4x16 Countersunk Screw</li>
-</ul>
-<p><img src="images/ASSM_Motor_Mount_1.png" alt="Motor_Mount_Assm">
-<img src="images/ASSM_Motor_Mount_2.png" alt="Motor_Mount_Assm">
-<img src="images/ASSM_Motor_Mount_3.png" alt="Motor_Mount_Assm">
-<img src="images/ASSM_Motor_Mount_4.png" alt="Motor_Mount_Assm">
-<img src="images/ASSM_Motor_Mount_5.png" alt="Motor_Mount_Assm">
-<img src="images/ASSM_Motor_Mount_6.png" alt="Motor_Mount_Assm"></p>
-<p><strong>ALERT.</strong> There is little thread engagement on screws for the following step. This is due to variation in production thickness of endoskeleton. Ensure motor is pressed tight against the endoskeleton during this step. Apply only <em>light force</em> when fastening screws. Loctite may be desirable.</p>
-<p><img src="images/ASSM_Motor_Mount_7.png" alt="Motor_Mount_Assm">
-<img src="images/ASSM_Motor_Mount_8.png" alt="Motor_Mount_Assm"></p>
-<h3 id="waste-spool">Waste Spool</h3>
-<p>Requires:</p>
-<ul>
-<li>Waste Spool Print</li>
-<li>M3x16 Countersunk Screw</li>
-</ul>
-<p><img src="images/ASSM_Waste_Spool_1.png" alt="Waste_Spool_Assm">
-<img src="images/ASSM_Waste_Spool_2.png" alt="Waste_Spool_Assm">
-<img src="images/ASSM_Waste_Spool_3.png" alt="Waste_Spool_Assm">
-<img src="images/ASSM_Waste_Spool_4.png" alt="Waste_Spool_Assm"></p>
 <h2 id="wiring">Wiring</h2>
 <p>While simple, proper wiring of the WT-01 is critical. Ensure all of the following electrical connections are well secured.</p>
 <h3 id="wc-block-and-cathode-wire">WC Block and Cathode Wire</h3>
