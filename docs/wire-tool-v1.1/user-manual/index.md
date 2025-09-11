@@ -250,7 +250,7 @@ Requires:
 - Idler Assembly (2x)
 - JGY-370 Motor
 - M3x8 BHCS (5x)
-- M5x16 Countersunk Screw (5x)
+- M5x16 Screw (4x)
 
 ![Front_Lower_Base_Assm](images/ASSM_Front_Lower_Base_1.png)
 ![Front_Lower_Base_Assm](images/ASSM_Front_Lower_Base_2.png)
@@ -267,11 +267,29 @@ When replacing idler bearings, this deformation will prevent removal. Either rep
 ![Front_Lower_Base_Assm](images/ASSM_Front_Lower_Base_8.png)
 ![Front_Lower_Base_Assm](images/ASSM_Front_Lower_Base_9.png)
 ![Front_Lower_Base_Assm](images/ASSM_Front_Lower_Base_10.png)
+![Front_Lower_Base_Assm](images/ASSM_Front_Lower_Base_11.png)
+![Front_Lower_Base_Assm](images/ASSM_Front_Lower_Base_12.png)
+![Front_Lower_Base_Assm](images/ASSM_Front_Lower_Base_13.png)
+![Front_Lower_Base_Assm](images/ASSM_Front_Lower_Base_14.png)
+![Front_Lower_Base_Assm](images/ASSM_Front_Lower_Base_15.png)
+![Front_Lower_Base_Assm](images/ASSM_Front_Lower_Base_16.png)
+![Front_Lower_Base_Assm](images/ASSM_Front_Lower_Base_17.png)
+![Front_Lower_Base_Assm](images/ASSM_Front_Lower_Base_18.png)
+![Front_Lower_Base_Assm](images/ASSM_Front_Lower_Base_19.png)
+![Front_Lower_Base_Assm](images/ASSM_Front_Lower_Base_20.png)
+![Front_Lower_Base_Assm](images/ASSM_Front_Lower_Base_21.png)
+![Front_Lower_Base_Assm](images/ASSM_Front_Lower_Base_22.png)
+![Front_Lower_Base_Assm](images/ASSM_Front_Lower_Base_23.png)
+![Front_Lower_Base_Assm](images/ASSM_Front_Lower_Base_24.png)
+![Front_Lower_Base_Assm](images/ASSM_Front_Lower_Base_25.png)
+![Front_Lower_Base_Assm](images/ASSM_Front_Lower_Base_26.png)
+![Front_Lower_Base_Assm](images/ASSM_Front_Lower_Base_27.png)
+
 
 ### Back Lower Base
 Requires:
 - Back Lower Base Print
-- M5x16 Countersunk Screw (3x)
+- M5x16  Screw (3x)
 
 ![Back_Lower_Base_Assm](images/ASSM_Back_Lower_Base_1.png)
 ![Back_Lower_Base_Assm](images/ASSM_Back_Lower_Base_2.png)
@@ -279,14 +297,10 @@ Requires:
 ![Back_Lower_Base_Assm](images/ASSM_Back_Lower_Base_4.png)
 ![Back_Lower_Base_Assm](images/ASSM_Back_Lower_Base_5.png)
 
-### Tensioner Body
+### Tool Mount
 Requires:
-- Tensioner Assembly
-- Tension Arm Assembly
-- 625RS Bearing
-- Pinch Bearing Boss
-- M4x16 Countersunk Screw (2)
-- M4x25 Buttonhead Cap Screw
+- Tool Mount Print
+- M5x
 - Tension Spring
 - M3 Rivnut
 
