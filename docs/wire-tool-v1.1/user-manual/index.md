@@ -323,8 +323,11 @@ Requires:
 
 ![Tool_Mount_Assm](images/ASSM_Tool_Mount_1.png)
 ![Tool_Mount_Assm](images/ASSM_Tool_Mount_2.png)
+### Ground Wire
 
 **NOTE.** The grounding wire ring terminal must be installed with the *lower M5x16 BHCS* at this point. It is important that you install the grounding stap on the lower position as that is the only hole on the endoskeleton that has not been anodized. An anodized layer will prevent grounding of the frame.
+
+Grounding is done for safety and EMI reduction.
 
 ![Tool_Mount_Assm](images/ASSM_Tool_Mount_3.png)
 ![Tool_Mount_Assm](images/ASSM_Tool_Mount_4.png)
@@ -334,43 +337,21 @@ Requires:
 ## Wiring
 While simple, proper wiring of the WT-01 is critical. Ensure all of the following electrical connections are well secured. 
 
-### WC Block and Cathode Wire
+### Energizer Screw and Cathode Wire
 
-The WC block is the component that connects the cutting wire to the circuit. Ensuring a solid and long term electrical connection is important for reliability and safety. After installation of WC block and cathode wire, potting of the connection with hot glue is strongly recommended. Potting will help to prevent oxidation of the connector, improving lifetime.
-
-After installation and potting, route the cathode wire through the integrated wire run in the lower back base 3D print to the Wago bank on the tool mount print. Fastener cap should be added to the M6 screw for added safety. This may be applied with waterproof adhesive of choice.
+The Energizer Screw is the component that connects the cutting wire to the circuit. Ensuring a solid and long term electrical connection is important for reliability and safety. After installation, potting of the connection with hot glue is strongly recommended. Potting will help to prevent oxidation of the connector, improving lifetime.
 
 Requires:
-- WC Block
-- Insulating Boss
-- M6x30 Button Head Cap Screw
-- M6 Nylock
 - Cathode Wire
+- M5x20 BHCS
+- Hot Glue
 
 ![WC_Block_Assm](images/ASSM_WC_Block_1.png)
 ![WC_Block_Assm](images/ASSM_WC_Block_2.png)
-![WC_Block_Assm](images/ASSM_WC_Block_3.png)
 
-**ALERT.** Please pot the electrical connection at this point. Hot glue will provide some protection against water for this connection. 3D print is designed to act as a potting cup and may be filled completely with glue. Lower temperature plastics like PLA may be damaged by potting entire cavity at once. Several steps may be required, allowing time to cool between each. 
+Thread fastener through threads in 3D print. Route wire through recess in 3D print. Insert into Wago.
 
-![WC_Block_Assm](images/ASSM_WC_Block_4.png)
-
-### Ground Wire
-
-The grounding wire is secured with a self tapping screw. This screw cuts into the endoskeleton and grounds it. This is done for safety and EMI reduction.
-
-**ALERT.** Users have reported shearing of the screw head during installation. It is highly recommended to thread this hole manually with an 8-32 tap prior to installation. If unable to tap this hole, it is recommended to use a fastener with a clearly visible cutting tip with recess for chips. Rack Robotics is working on a fix.
-
-Requires:
-- Self Tapping Screw
-- Ground Wire
-
-![Ground_Screw_Assm](images/ASSM_Ground_Screw_1.png)
-![Ground_Screw_Assm](images/ASSM_Ground_Screw_2.png)
-
-**ALERT.** Users have reported that over torquing the self tapping fastener shears off fastener head. Apply gentle pressure *by hand* when installing this part.
-
-![Ground_Screw_Assm](images/ASSM_Ground_Screw_3.png)
+**ALERT.** Pot the electrical connection at this point. Hot glue will provide some protection against water for this connection. The 3D print is designed to act as a potting cup and may be filled partially with glue. Lower temperature plastics like PLA may be damaged by potting entire cavity at once. Several steps may be required, allowing time to cool between each. 
 
 ### Power Connections
 
@@ -423,11 +404,6 @@ The wire tool supports dielectric flushing. Flushing dramatically improves cutti
 ## Troubleshooting
 
 (TO BE ADDED)
-
-## Drawings
-
-![Wire Tool V1.1](images/WT-01_page_1.png)
-![Wire Tool V1.1](images/WT-01_page_2.png)
 
 ## Contributing
 
