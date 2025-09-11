@@ -1,8 +1,22 @@
-# Wire Tool V1.1 User Manual (UNDER CONSTRUCTION AS OF 25.09.07. DO NOT USE.)
+# Wire Tool V1.1 User Manual (UNDER CONSTRUCTION. USE AT YOUR OWN DISCRETION.)
 
 ## What is the Wire Tool V1.1? 
 
 The Wire Tool V1.1 is simplified and improved open-source wire EDM (electrical discharge machining) wire EDM toolhead developed by Rack Robotics. It aims to provide a cost-effective and easily hackable solution for wire EDM enthusiasts and professionals. The Wire Tool V1.1 is designed to be mounted to a CNC motion system of the user's choice.
+
+### Changes from V1.0 to V1.1
+
+A brief list of changes on the V1.1 Wire Tool Kit are as follows:
+- Dual wire guides for significant cut quality increase
+- Pin retained bearings on pinch roller for greater consistency
+- Deeper idler grooves for easier threading
+- M5 fastener for energizer instead of WC block (allows us to maintain price and increase repairability)
+- Significantly easier to remove waste spool (does not require tools)
+- More durable motor cover that is easier to install and remove
+- Significant consolidation of printed parts to simplify build
+- Fewer parts overall
+
+In general, this is an easier build than the V1.0 with less diversity of parts. You should be able to replace your energizer more easily if need be without the requirement of an expensive, EDM-specific component.
 
 **NOTE:** 
 While Rack Robotics cannot currently give specific mption system recommendations, stiffness, motion precision, and system mass are all highly desirable in a WEDM machine.
@@ -297,27 +311,6 @@ Requires:
 ![Back_Lower_Base_Assm](images/ASSM_Back_Lower_Base_4.png)
 ![Back_Lower_Base_Assm](images/ASSM_Back_Lower_Base_5.png)
 
-### Tool Mount
-Requires:
-- Tool Mount Print
-- M5x
-- Tension Spring
-- M3 Rivnut
-
-![Tensioner_Body_Section](images/ASSM_Tensioner_Body_Sec_1.png)
-![Tensioner_Body_Section](images/ASSM_Tensioner_Body_Sec_2.png)
-
-**NOTE.** Printed stationary pinch roller boss is designed to deform upon installation of M4x16 CS screw. This deformation will provide a more secure location for the pinch roller.
-
-![Tensioner_Body_Section](images/ASSM_Tensioner_Body_Sec_3.png)
-![Tensioner_Body_Section](images/ASSM_Tensioner_Body_Sec_4.png)
-![Tensioner_Body_Section](images/ASSM_Tensioner_Body_Sec_5.png)
-![Tensioner_Body_Section](images/ASSM_Tensioner_Body_Sec_6.png)
-![Tensioner_Body_Section](images/ASSM_Tensioner_Body_Sec_7.png)
-![Tensioner_Body_Section](images/ASSM_Tensioner_Body_Sec_8.png)
-![Tensioner_Body_Section](images/ASSM_Tensioner_Body_Sec_9.png)
-![Tensioner_Body_Section](images/ASSM_Tensioner_Body_Sec_10.png)
-![Tensioner_Body_Section](images/ASSM_Tensioner_Body_Sec_11.png)
 
 ### Tool Mount
 Requires:
