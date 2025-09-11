@@ -310,50 +310,26 @@ Requires:
 ![Back_Lower_Base_Assm](images/ASSM_Back_Lower_Base_3.png)
 ![Back_Lower_Base_Assm](images/ASSM_Back_Lower_Base_4.png)
 ![Back_Lower_Base_Assm](images/ASSM_Back_Lower_Base_5.png)
-
+![Back_Lower_Base_Assm](images/ASSM_Back_Lower_Base_6.png)
+![Back_Lower_Base_Assm](images/ASSM_Back_Lower_Base_7.png)
+![Back_Lower_Base_Assm](images/ASSM_Back_Lower_Base_8.png)
+![Back_Lower_Base_Assm](images/ASSM_Back_Lower_Base_9.png)
 
 ### Tool Mount
 Requires:
 - Tool Mount Print
-- M4x16 Countersunk Screw (3x)
+- M5x16 Screw (2x)
 - Wago 221-412 (4x)
 
 ![Tool_Mount_Assm](images/ASSM_Tool_Mount_1.png)
 ![Tool_Mount_Assm](images/ASSM_Tool_Mount_2.png)
+
+**NOTE.** The grounding wire ring terminal must be installed with the *lower M5x16 BHCS* at this point. It is important that you install the grounding stap on the lower position as that is the only hole on the endoskeleton that has not been anodized. An anodized layer will prevent grounding of the frame.
+
 ![Tool_Mount_Assm](images/ASSM_Tool_Mount_3.png)
 ![Tool_Mount_Assm](images/ASSM_Tool_Mount_4.png)
 ![Tool_Mount_Assm](images/ASSM_Tool_Mount_5.png)
 ![Tool_Mount_Assm](images/ASSM_Tool_Mount_6.png)
-
-### Spool Motor and Base
-Requires:
-- Motor Base Print
-- Motor Cover Print
-- 18RPM DC Motor
-- M3x8 Buttonhead Cap Screw (4x)
-- M4x16 Countersunk Screw
-
-![Motor_Mount_Assm](images/ASSM_Motor_Mount_1.png)
-![Motor_Mount_Assm](images/ASSM_Motor_Mount_2.png)
-![Motor_Mount_Assm](images/ASSM_Motor_Mount_3.png)
-![Motor_Mount_Assm](images/ASSM_Motor_Mount_4.png)
-![Motor_Mount_Assm](images/ASSM_Motor_Mount_5.png)
-![Motor_Mount_Assm](images/ASSM_Motor_Mount_6.png)
-
-**ALERT.** There is little thread engagement on screws for the following step. This is due to variation in production thickness of endoskeleton. Ensure motor is pressed tight against the endoskeleton during this step. Apply only *light force* when fastening screws. Loctite may be desirable.
-
-![Motor_Mount_Assm](images/ASSM_Motor_Mount_7.png)
-![Motor_Mount_Assm](images/ASSM_Motor_Mount_8.png)
-
-### Waste Spool
-Requires:
-- Waste Spool Print
-- M3x16 Countersunk Screw
-
-![Waste_Spool_Assm](images/ASSM_Waste_Spool_1.png)
-![Waste_Spool_Assm](images/ASSM_Waste_Spool_2.png)
-![Waste_Spool_Assm](images/ASSM_Waste_Spool_3.png)
-![Waste_Spool_Assm](images/ASSM_Waste_Spool_4.png)
 
 ## Wiring
 While simple, proper wiring of the WT-01 is critical. Ensure all of the following electrical connections are well secured. 
