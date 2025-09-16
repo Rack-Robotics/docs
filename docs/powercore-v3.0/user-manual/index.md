@@ -18,8 +18,12 @@ If you have questions, please join our [discord](https://discord.gg/z4XNk7Hkgw).
 
 ## Powercore V3.0 IO Ports
 
- Port | Description |
-| --- | --- |
+ Port    | Description |
+| ---    | --- |
+|ENABLE  | Used to turn on spark generation when supplied with 3.3V|
+|FEEDBACK| Reports EDM power draw via active-low PWM. Nominal 10%-90% during machining. |
+|3.3V    | 3.3VDC. Can be used conveniently to enable machining. |
+|GROUND  | Common ground to board and enclosure. |
 
 ![Powercore V3.0 Front Ports with Polarity Indicators](images/PC-03PORTDIAGRAM.png)
 
