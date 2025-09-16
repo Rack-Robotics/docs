@@ -271,11 +271,6 @@ Requires:
 ![Front_Lower_Base_Assm](images/ASSM_Front_Lower_Base_3.png)
 ![Front_Lower_Base_Assm](images/ASSM_Front_Lower_Base_4.png)
 ![Front_Lower_Base_Assm](images/ASSM_Front_Lower_Base_5.png)
-
-**NOTE.** Printed idler bosses are designed to deform upon installation of M4x16 CS screws. This deformation will provide a more secure location for the idlers. Ensure that screws are tightened enough to deform top portion of idler boss, but not enough to crush base portion and misalign idlers.
-
-When replacing idler bearings, this deformation will prevent removal. Either reprint lower front base for this step or use light application of hot air when removing idlers. Hot air will soften the idler boss enough to remove the idler assembly without needing to reprint base component. 
-
 ![Front_Lower_Base_Assm](images/ASSM_Front_Lower_Base_6.png)
 ![Front_Lower_Base_Assm](images/ASSM_Front_Lower_Base_7.png)
 ![Front_Lower_Base_Assm](images/ASSM_Front_Lower_Base_8.png)
