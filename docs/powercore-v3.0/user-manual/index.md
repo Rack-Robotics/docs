@@ -24,6 +24,10 @@ If you have questions, please join our [discord](https://discord.gg/z4XNk7Hkgw).
 |FEEDBACK| Reports EDM power draw via active-low PWM. Nominal 10%-90% during machining. |
 |3.3V    | 3.3VDC. Can be used conveniently to enable machining. |
 |GROUND  | Common ground to board and enclosure. |
+|48VDC+  | Supplies power to spark generator. |
+|48VDC-  | Supplies return path for power. |
+|ELECTRODE (-) | Most common setup. Use with brass electrodes on most materials. |
+|WORKPIECE (+) | Most common setup. Use with brass electrodes on most materials. |
 
 ![Powercore V3.0 Front Ports with Polarity Indicators](images/PC-03PORTDIAGRAM.png)
 
