@@ -1,7 +1,5 @@
 # Powercore V3.0 User Manual
 
-## [UNDER CONTRUCTION.]
-
 ## What is the Powercore V3.0? 
 The Powercore V3.0 is an open-source wire EDM (electrical discharge machining) power supply developed by Rack Robotics. It aims to provide a cost-effective and easily replicable solution for wire EDM enthusiasts and professionals.
 ### What is wire EDM? 
