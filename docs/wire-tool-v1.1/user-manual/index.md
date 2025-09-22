@@ -95,12 +95,13 @@ The slicer settings for the Tension Arm is as follows:
 |Back Lower Base      |         1         |        N       |N                              |
 |Back Lower Cover     |         1         |        Y       |N                              |
 |Front Base           |         1         |        N       |Y                              |
-|Idler                |         2         |        N       |N                              |
+|Idler Cover          |         2         |        N       |N                              |
 |Motor Cover          |         1         |        N       |N                              |
-|Spool Puller         |         1         |        N       |N                              |
+|Spool Puller Base    |         1         |        N       |N                              |
+|Spool Puller Cap     |         1         |        Y       |N                              |
 |Tension Arm          |         1         |        N       |Y                              |
-|Front     Cover      |         1         |        Y       |N                              |
-|Tool Mount Ender 3   |         1         |        N       |N                              |
+|Front Cover          |         1         |        Y       |N                              |
+|Tool Mount           |         1         |        N       |N                              |
 |Tool Mount Cover     |         1         |        Y       |N                              |
 
 
@@ -353,7 +354,7 @@ Thread fastener through threads in 3D print. Route wire through recess in 3D pri
 
 ### Power Connections
 
-Wires supplied in the WT-01 kit require stripping before insertion into Wago terminals. Wires have been provided in this fashion in order to prevent fraying and damage during shipping. **IMPORTANT. Strip all wires to expose 11mm of conductor.**
+Wires supplied in the WT-01 kit require stripping before insertion into Wago terminals. Wires have been provided in this fashion in order to prevent fraying and damage during shipping. **IMPORTANT. Strip all wires to expose 11mm of conductor. This is the required standard for Wago lever connectors.**
 
 First, complete wiring to the Vat. Complete wiring in accordance with the following images:
 
