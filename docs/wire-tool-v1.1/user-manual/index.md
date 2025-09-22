@@ -1,8 +1,11 @@
-# Wire Tool V1.1 User Manual (UNDER CONSTRUCTION. USE AT YOUR OWN DISCRETION.)
+# Wire Tool V1.1 User Manual (UNDER CONSTRUCTION.)
 
 ## What is the Wire Tool V1.1? 
 
 The Wire Tool V1.1 is simplified and improved open-source wire EDM (electrical discharge machining) wire EDM toolhead developed by Rack Robotics. It aims to provide a cost-effective and easily hackable solution for wire EDM enthusiasts and professionals. The Wire Tool V1.1 is designed to be mounted to a CNC motion system of the user's choice.
+
+![Wire Tool V1.1](images/WT-01_front_view.png)
+![Wire Tool V1.1](images/WT-01_front_view_coverless.png)
 
 ### Changes from V1.0 to V1.1
 
@@ -22,9 +25,6 @@ In general, this is an easier build than the V1.0 with less diversity of parts. 
 While Rack Robotics cannot currently give specific mption system recommendations, stiffness, motion precision, and system mass are all highly desirable in a WEDM machine.
 
 An example of a poor choice for a motion system is an Ender 3 3D printer. An example of an almost ideal choice for a motion system would be a welded metal tank with ballscrew and linear rail actuators mounted on it. 
-
-![Wire Tool V1.1](images/WT-01_front_view.png)
-![Wire Tool V1.1](images/WT-01_front_view_coverless.png)
 
 ### Safety
 
@@ -51,12 +51,12 @@ This assembly may require hot glue, super glue, and heat set inserts. Each of th
 
 ## 3D Prints
 
-**REPLACE LINK** All 3D printable files can be found on the [Rack Robotics Printables page](https://www.printables.com/@RackRoboticsO_631255). Files included are 3MF, STL, and STEP. You may need to modify files for threaded insert to work with your chosen filament.
+All 3D printable files can be found on the [Rack Robotics Printables page](https://www.printables.com/model/1412442-wt-01-v11-opensource-wire-edm-tool). Files included are 3MF, STL, and STEP. You may need to modify files for threaded insert to work with your chosen filament.
 
 Files also available on the the [Rack Robotics Github](https://github.com/Rack-Robotics/docs/tree/main).
 
 For Bambulab users, a ready to print project file has been provided.
-Save for the Tension Arm, all parts print with the same settings. *Files verified for printing in PLA.* Other materials may be tested in the future.
+Save for the Tension Arm, all parts print with the same settings. *Files verified for printing in PLA.* 
 
 ### Slicer Settings
 
