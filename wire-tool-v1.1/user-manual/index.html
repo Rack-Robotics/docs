@@ -77,7 +77,7 @@
     </div>
 </aside>
         <main class="content">
-            <h1 id="wire-tool-v11-user-manual-under-construction">Wire Tool V1.1 User Manual (UNDER CONSTRUCTION.)</h1>
+            <h1 id="wire-tool-v11-user-manual">Wire Tool V1.1 User Manual</h1>
 <h2 id="what-is-the-wire-tool-v11">What is the Wire Tool V1.1?</h2>
 <p>The Wire Tool V1.1 is simplified and improved open-source wire EDM (electrical discharge machining) wire EDM toolhead developed by Rack Robotics. It aims to provide a cost-effective and easily hackable solution for wire EDM enthusiasts and professionals. The Wire Tool V1.1 is designed to be mounted to a CNC motion system of the user&rsquo;s choice.</p>
 <p><img src="images/WT-01_front_view.png" alt="Wire Tool V1.1">
@@ -173,11 +173,13 @@ Save for the Tension Arm, all parts print with the same settings. <em>Files veri
 </tr>
 <tr>
 <td>Generate Supports</td>
-<td>Yes</td>
+<td>Yes, on build-plate only</td>
 </tr>
 </tbody>
 </table>
-<p>The different slicer settings for the Tension Arm is as follows:</p>
+<p><strong>Note:</strong> For the &ldquo;Front Base&rdquo; print, enfoce supports in the pinch roller idler area while maintaining a clear dielectric and wire path. In the slicer it should appear as follows:
+<img src="images/special_print_instructions.png" alt="Wire Tool V1.1"></p>
+<p>The slicer settings for the Tension Arm is as follows:</p>
 <table>
 <thead>
 <tr>
@@ -197,7 +199,6 @@ Save for the Tension Arm, all parts print with the same settings. <em>Files veri
 </tbody>
 </table>
 <h3 id="required-files">Required Files</h3>
-<p><strong>FULL REWRITE</strong></p>
 <table>
 <thead>
 <tr>
@@ -315,7 +316,7 @@ Save for the Tension Arm, all parts print with the same settings. <em>Files veri
 <h2 id="mechanical-assembly">Mechanical Assembly</h2>
 <p>When assembling the WT-01, care must be taken not to cross thread fasteners into the aluminum endoskeleton. If fasteners are cross threaded, the type III anodizing may be damaged, exposing the bare aluminum to water. This will lead to corrosion and premature degradation of your WT-01. The grounding screw position is intentionally not anodized. While this part is above the waterline, you may add dielectric grease to this connection to prevent corrosion.</p>
 <p>All hardware required for assembly is included with the WT-01 kit from Rack Robotics. All hardware save for the ceramic wire guides is generic and stainless steel to ease in the replacement of wear components such as the 625RS bearings.</p>
-<p><strong>FULL REWRITE</strong> The following hardware is required for assembly of the WT-01:</p>
+<p>The following hardware is required for assembly of the WT-01:</p>
 <table>
 <thead>
 <tr>
