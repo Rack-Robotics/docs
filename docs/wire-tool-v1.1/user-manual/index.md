@@ -1,4 +1,4 @@
-# Wire Tool V1.1 User Manual (UNDER CONSTRUCTION.)
+# Wire Tool V1.1 User Manual
 
 ## What is the Wire Tool V1.1? 
 
@@ -75,9 +75,13 @@ Critical print settings are as follows:
 |Top Shell Layers          |         4     |
 |Sparse Infill Density     |       15%     |
 |Sparse Infill Pattern     |     Cubic     |
-|Generate Supports         |        Yes    |
+|Generate Supports         |        Yes, on build-plate only    |
 
-The different slicer settings for the Tension Arm is as follows:
+**Note:** For the "Front Base" print, enfoce supports in the pinch roller idler area while maintaining a clear dielectric and wire path. In the slicer it should appear as follows:
+![Wire Tool V1.1](images/special_print_instructions.png)
+
+
+The slicer settings for the Tension Arm is as follows:
 
 |Setting                   |Setting Value  |
 |--------------------------|---------------|
@@ -86,7 +90,6 @@ The different slicer settings for the Tension Arm is as follows:
 
 ### Required Files
 
-**FULL REWRITE** 
 |File Name            |Number Required    |Dual Color (Y/N)|Requires Threaded Inserts (Y/N)|
 |---------------------|-------------------|----------------|-------------------------------|
 |Back Lower Base      |         1         |        N       |N                              |
@@ -173,7 +176,7 @@ When assembling the WT-01, care must be taken not to cross thread fasteners into
 
 All hardware required for assembly is included with the WT-01 kit from Rack Robotics. All hardware save for the ceramic wire guides is generic and stainless steel to ease in the replacement of wear components such as the 625RS bearings.
 
-**FULL REWRITE** The following hardware is required for assembly of the WT-01:
+The following hardware is required for assembly of the WT-01:
 
 |Part                                 |Number Required    |
 |-------------------------------------|-------------------|
