@@ -221,6 +221,7 @@ th {
     padding: 2rem;
     overflow-y: auto;
     scroll-behavior: smooth;
+    position: relative;
     a {
         color: var(--brand-color);
     }
@@ -235,6 +236,26 @@ th {
         display: block;
         max-width: 100%;
     }
+}
+
+.content-actions {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    pointer-events: auto;
+}
+
+.print-link {
+    border: 1px solid var(--brand-color);
+    padding: 0.35rem 0.6rem;
+    border-radius: 4px;
+    text-decoration: none !important;
+    font-weight: 600;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.2);
+}
+
+.print-link:hover {
+    opacity: 0.95;
 }
 
 .content-overview {

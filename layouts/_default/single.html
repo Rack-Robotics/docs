@@ -8,6 +8,9 @@
     <div class="container">
         {{ partial "sidebar.html" . }}
         <main class="content">
+            <div class="content-actions">
+                <a href="#" class="print-link" onclick="window.print(); return false;" aria-label="Print this page">Print</a>
+            </div>
             {{ .Content }}
         </main>
         {{ partial "overview.html" . }}
