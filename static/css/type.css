@@ -81,6 +81,8 @@ code, pre {
 pre {
     padding: 1em;
     overflow: auto;
+    border: solid 1px var(--brand-color);
+    border-radius: 8px;
 }
 
 /* Blockquotes */

@@ -1,7 +1,5 @@
 # Powercore V3.0 User Manual
 
-## [UNDER CONTRUCTION.]
-
 ## What is the Powercore V3.0? 
 The Powercore V3.0 is an open-source wire EDM (electrical discharge machining) power supply developed by Rack Robotics. It aims to provide a cost-effective and easily replicable solution for wire EDM enthusiasts and professionals.
 ### What is wire EDM? 
@@ -18,8 +16,16 @@ If you have questions, please join our [discord](https://discord.gg/z4XNk7Hkgw).
 
 ## Powercore V3.0 IO Ports
 
- Port | Description |
-| --- | --- |
+ Port    | Description |
+| ---    | --- |
+|ENABLE  | Used to turn on spark generation when supplied with 3.3V|
+|FEEDBACK| Reports EDM power draw via active-low PWM. Nominal 10%-90% during machining. |
+|3.3V    | 3.3VDC. Can be used conveniently to enable machining. |
+|GROUND  | Common ground to board and enclosure. |
+|48VDC+  | Supplies power to spark generator. |
+|48VDC-  | Supplies return path for power. |
+|ELECTRODE (-) | Most common setup. Use with brass electrodes on most materials. |
+|WORKPIECE (+) | Most common setup. Use with brass electrodes on most materials. |
 
 ![Powercore V3.0 Front Ports with Polarity Indicators](images/PC-03PORTDIAGRAM.png)
 
