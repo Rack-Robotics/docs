@@ -191,9 +191,9 @@ The following hardware is required for assembly of the WT-01:
 |135mm PTFE Tube                      |         1         |
 |Wago 221-412                         |         4         |
 |M3x8 Buttonhead Cap Screw            |         5         |
-|M5x16 Countersunk Screw              |         11        |
+|M5x16 Buttonhead Caprew              |         10        |
+|M5x20 Buttonhead Caprew              |         2         |
 |M4x25 Buttonhead Cap Screw           |         1         |
-|M5x12 Buttonhead Cap Screw           |         1         |
 |M5x12 Undersized Dowel Pin           |         2         |
 
 ## Subcomponents
