@@ -1,0 +1,60 @@
+/* Print stylesheet: hide navigation and force black-on-white for readable prints */
+
+/* Ensure page prints using full width for content */
+@page {
+    margin: 20mm;
+}
+
+/* Hide site chrome */
+header.site-header,
+.sidebar,
+.content-overview {
+    display: none !important;
+}
+
+/* Allow content to use full page width */
+.content {
+    display: block !important;
+    width: auto !important;
+    padding: 0 !important;
+    margin: 20mm !important;
+    overflow: visible !important;
+    position: static !important;
+    color: #000 !important;
+    background: #fff !important;
+}
+
+/* Neutralize colors and backgrounds inside content */
+.content * {
+    color: #000 !important;
+    background: transparent !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+}
+
+/* Make images scale nicely */
+.content img {
+    max-width: 100% !important;
+    height: auto !important;
+}
+
+/* Remove any shadows, borders that might not print well */
+* {
+    box-shadow: none !important;
+    text-shadow: none !important;
+    border: none !important;
+}
+
+/* Hide the print button itself when printing */
+.print-link,
+.content-actions {
+    display: none !important;
+}
+
+printbreak {
+    display: block;
+    width: 100%;
+    height: 1px;
+    page-break-after: always;
+    break-before: always;
+}
